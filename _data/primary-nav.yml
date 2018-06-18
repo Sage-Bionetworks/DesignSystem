@@ -13,11 +13,17 @@
 - title: Components
   group: components
 
+- title: Utilities
+  group: utilities
+
 - title: Page templates
   group: page-templates
 
-- title: Resources
-  url: /resources.html
+- title: Downloads
+  url: /downloads.html
+
+- title: Support
+  url: /support.html
 
 - title: Contribute
   url: /contribute.html
