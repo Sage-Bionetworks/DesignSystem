@@ -19,3 +19,8 @@ github_username:  bradfrost
 
 # Build settings
 markdown: kramdown
+
+# Setup pattern collection
+collections:
+  patterns:
+    output: true
