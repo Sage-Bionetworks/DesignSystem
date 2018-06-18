@@ -37,17 +37,12 @@
  \*------------------------------------*/
 
 /**
- * Brand Colors
- * 1) Main identifiable colors involved in creating the UI
- *    Feel free to add your brand's color palette here.
- */
-
-/**
  * Neutral Colors
  * 1) Neutral colors are grayscale values used throughout the application
  */
 $color-white: #fff;
 $color-gray-02: #f9f9f9;
+$color-gray-04: #f5f5f5;
 $color-gray-07: #eee;
 $color-gray-13: #ddd;
 $color-gray-27: #bbb;
@@ -56,6 +51,7 @@ $color-gray-60: #666;
 $color-gray-73: #444;
 $color-gray-93: #131313;
 $color-black: #000;
+
 
 /**
  * Utility Colors
@@ -70,9 +66,6 @@ $color-utility-success: #03804d;
 $color-utility-success-light: #d4f3e6;
 $color-utility-warning: #a59b15;
 $color-utility-warning-light: #fffecf;
-
-
-
 
 
 /*------------------------------------*\
@@ -144,9 +137,6 @@ $space-bullet-offset: 1.6rem; /* 2 */
 $border-radius: 4px;
 
 
-
-
-
 /*------------------------------------*\
     #ANIMATION
 \*------------------------------------*/
@@ -158,6 +148,8 @@ $fade-quick: 0.15s;
 $fade-long: 0.4s;
 $anim-ease: ease-in-out;
 
+$anim-base-easing: ease;
+$anim-base-duration: .3s;
 
 
 

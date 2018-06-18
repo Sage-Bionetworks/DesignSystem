@@ -49,6 +49,7 @@
 	height: 100vh;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	background: $main_background_color;
 
     /**
 	 * Main section of 2 column fixed layout
@@ -239,3 +240,23 @@
 		}
 	}
 }
+
+/*------------------------------------*\
+    #LAYOUT TWEAKS
+\*------------------------------------*/
+
+.push-right {
+	padding-left: 0.5rem;
+  
+	@media all and (min-width: 40em) {
+	  padding-left: 8rem;
+	}
+  }
+  
+  .c-tabs-list__item {
+	display: none;
+  
+	&.is-active {
+	  display: block;
+	}
+  }

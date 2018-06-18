@@ -24,3 +24,10 @@ markdown: kramdown
 collections:
   patterns:
     output: true
+
+# Overriding default colors
+branding:
+  navigation_background_color: '#eee'
+  navigation_link_color: '#444'
+  navigation_link_color_hover: 'gray'
+  main_background_color: '#fff'

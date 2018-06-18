@@ -110,3 +110,18 @@
 		display: block;
 	}
 }
+
+/**
+ * Tabs list in reference site
+ * 1) Wrap tabs
+ * 2) Remove overflow
+ * 3) Remove shadows for overflow
+ */
+ .c-tabs__list {
+	@media all and (min-width: $bp-large) {
+	  flex-wrap: wrap; /* 1 */
+	  overflow-x: inherit; /* 2 */
+	  overflow-y: inherit; /* 2 */
+	}
+  }
+  
