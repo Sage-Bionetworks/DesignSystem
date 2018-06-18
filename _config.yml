@@ -27,6 +27,7 @@ collections:
 
 # Overriding default colors
 branding:
+  logo_path: '/assets/logo.svg'
   navigation_background_color: '#eee'
   navigation_link_color: '#444'
   navigation_link_color_hover: 'gray'
