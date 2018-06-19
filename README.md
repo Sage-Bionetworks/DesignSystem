@@ -2,7 +2,7 @@
 
 Design System Template is Jekyll theme and a boilerplate for creating and documenting your principles, style guides and patterns for your organization's design system. It provides just enough IA and hooks to get you going. As a bonus, I've provided links to helpful resources and inspiration to help you as you create your own custom design system. It is based on Brad Frost [Style Guide Guide](https://github.com/bradfrost/style-guide-guide/). The original code was cleaned and reworked, which leads to more straightforward maintenance of patterns and pages. Also, we speed up site generation.
 
-[See the demo here](https://martinsvoboda.github.io/design-system-template/)
+[See the demo here](https://lundegaard.github.io/design-system-template/)
 
 ![Screenshot of Design System](screenshot.png)
 
@@ -19,7 +19,7 @@ You have two variants how to use the template. You can directly copy this reposi
 ### Direct use
 
 1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
-2. Download or clone the files from the [repository on Github](https://github.com/martinsvoboda/mpsv-design-system). If you starting with GIT see [this simple guide](http://rogerdudler.github.io/git-guide/), you can use [GitHub desktop client](https://desktop.github.com/)
+2. Download or clone the files from the [repository on Github](https://github.com/lundegaard/design-system-template). If you starting with GIT see [this simple guide](http://rogerdudler.github.io/git-guide/), you can use [GitHub desktop client](https://desktop.github.com/)
 3. In the command line, navigate to the root of the project and run the `jekyll serve` command. This will build the static site and watch for changes.
 3. Visit `http://127.0.0.1:4000/` in your browser to see the style guide.
 
@@ -48,10 +48,10 @@ You can use Design System Template as Jekyll theme. Future propagation of change
 4. Add the following to your site's `_config.yml` to choose your theme
 
   ```yml
-  remote_theme: martinsvoboda/design-system-template
+  remote_theme: lundegaard/design-system-template
   ```
 
-  Note: You may also optionally specify a branch, tag, or commit to use by appending an `@` and the Git ref (e.g., `martinsvoboda/design-system-template@v1.0.0`). If you don't specify a Git ref, the `master` branch will be used.
+  Note: You may also optionally specify a branch, tag, or commit to use by appending an `@` and the Git ref (e.g., `lundegaard/design-system-template@v1.0.0`). If you don't specify a Git ref, the `master` branch will be used.
 
 
 ## Build your design system
@@ -193,7 +193,7 @@ branding:
 If you want to make more sophisticated changes, you can customize design directly with styles located in `_sass/` or with main CSS file located in `/assets/css/style-guide.scss`.
 
 ## Feedback and Questions
-If you have questions or issues with Style Guide Guide, please feel free to [open an issue](https://martinsvoboda.github.io/design-system-template/issues).
+If you have questions or issues with Style Guide Guide, please feel free to [open an issue](https://www.github.com/lundegaard/design-system-template/issues).
 
 ## License
 
