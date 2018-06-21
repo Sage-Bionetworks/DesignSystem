@@ -13,6 +13,9 @@ variations:
 - title: Tag variants
   description: The `.btn` classes are designed to be used with the `<button>` element. However, you can also use these classes on `<a>` or `<input>` elements (though some browsers may apply a slightly different rendering).
   pattern: buttons/button-tags.html
+- title: Sizes
+  description: Fancy larger or smaller buttons? Add `.btn-lg` or `.btn-sm` for additional sizes.
+  pattern: buttons/button-sizes.html
 ---
 
 ## General guidelines
