@@ -47,6 +47,7 @@ $main_background_color: {{ site.branding.main_background_color | default: '#fff'
 /*------------------------------------*\
    #BASE
 \*------------------------------------*/
+@import "base/reset";
 @import "base/body";
 @import "base/buttons";
 @import "base/forms";
@@ -55,7 +56,6 @@ $main_background_color: {{ site.branding.main_background_color | default: '#fff'
 @import "base/lists";
 @import "base/main";
 @import "base/media";
-@import "base/reset";
 @import "base/tables";
 @import "base/text";
 

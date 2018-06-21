@@ -22,7 +22,7 @@ Buttons are used primarily on action items. Some examples include Add, Save, Del
 ## Usage
 
 | Button type     | Purpose                                                                          |
-| --------------- |:--------------------------------------------------------------------------------:|
+| --------------- |----------------------------------------------------------------------------------|
 | Primary         | For the principle call to action on the page.                                    |
 | Secondary       | When an action does not require primary dominance on the page.                   |
 | Danger          | When an action has harmful intentions to the users data (delete, remove, etc).   |

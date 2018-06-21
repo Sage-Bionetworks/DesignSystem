@@ -9,13 +9,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
+    margin: 1rem 0 2rem;
 }
 
 /**
- * Table header cell
+ * Table cells
  */
 th {
     text-align: left;
+}
+td, th {
+    padding: 0.5rem 1.5rem 0.5rem 0;
 }
 
 /**
@@ -24,3 +28,12 @@ th {
 tr {
     vertical-align: top;
 }
+
+thead > tr {
+    border-bottom: 4px solid $color-gray-07;
+}
+
+tbody > tr {
+    border-bottom: 1px solid $color-gray-07;
+}
+
