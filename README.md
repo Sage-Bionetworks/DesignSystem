@@ -20,7 +20,7 @@ You have two variants how to use the template. You can directly copy this reposi
 
 1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
 2. Download or clone the files from the [repository on Github](https://github.com/lundegaard/design-system-template). If you starting with GIT see [this simple guide](http://rogerdudler.github.io/git-guide/), you can use [GitHub desktop client](https://desktop.github.com/)
-3. In the command line, navigate to the root of the project and run the `jekyll serve` command. This will build the static site and watch for changes.
+3. In the command line, navigate to the root of the project and run the `bundle exec jekyll serve` command. This will build the static site and watch for changes.
 3. Visit `http://127.0.0.1:4000/` in your browser to see the style guide.
 
 ### Use as Jekyll theme
