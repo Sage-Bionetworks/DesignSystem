@@ -4,8 +4,22 @@ type: detail
 title: Typography
 group: styles
 permalink: /styles/typography.html
-description: Typography style description
+description: Typography is used to create clear hierarchies, useful organizations, and purposeful alignments that guide users through the product and experience. It is the core structure of any well designed interface.
 
 ---
 
-For inspiration, check out [Material Design's typography styles](https://material.io/guidelines/style/typography.html#typography-styles)
+We should provide information about used typeface, type scales and other typographic rules applied to design system.
+In case of Bootstrap we present basic styles.
+
+## Headings 
+
+{% include pattern-preview.html path="_patterns/typography/headings.html" %}
+
+## Paragraphs
+
+{% include pattern-preview.html path="_patterns/typography/paragraphs.html" %}
+
+## Lists
+
+{% include pattern-preview.html path="_patterns/typography/lists.html" %}
+
