@@ -1,0 +1,26 @@
+.icon-preview {
+    width: 100px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+
+    text-align: center;
+    margin-bottom: 8px;
+    border: 2px solid #f5f5f5; /* $color-gray-04 */
+}
+
+.icon-preview__icon {
+    font-size: 40px;
+}
+
+.icon-preview__value {
+    margin-top: 100px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 0.7rem;
+}
