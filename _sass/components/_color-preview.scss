@@ -1,0 +1,21 @@
+
+.color-preview {
+    margin-bottom: 16px;
+    border: 20px solid #fff;
+    padding-top: 120px;
+    width: 160px;
+    display: inline-block;
+}
+
+.color-preview__value, .color-preview__name {
+    background-color: #fff;
+    padding: 4px 0px;
+    line-height: 1em;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.color-preview__name {
+    font-weight: 600;
+}

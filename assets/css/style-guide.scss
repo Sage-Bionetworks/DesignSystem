@@ -80,7 +80,8 @@ $main_background_color: {{ site.branding.main_background_color | default: '#fff'
 @import "components/buttons";
 @import "components/button-group";
 @import "components/card";
-@import "components/code"; // ---
+@import "components/code";
+@import "components/color-preview";
 @import "components/footer-nav";
 @import "components/footer";
 @import "components/header";
