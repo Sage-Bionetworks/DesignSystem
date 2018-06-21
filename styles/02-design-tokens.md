@@ -2,7 +2,7 @@
 layout: page
 type: detail
 title: Design tokens
-group: styles
+--group: styles // removed from styles, usualy we do not define 
 permalink: /styles/design-tokens.html
 description: Design token information
 
