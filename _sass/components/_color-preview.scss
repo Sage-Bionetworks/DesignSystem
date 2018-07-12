@@ -1,14 +1,14 @@
 
 .color-preview {
     margin-bottom: 16px;
-    border: 20px solid #fff;
+    border: 20px solid $main_background_color;
     padding-top: 120px;
     width: 160px;
     display: inline-block;
 }
 
 .color-preview__value, .color-preview__name {
-    background-color: #fff;
+    background-color: $main_background_color;
     padding: 4px 0px;
     line-height: 1em;
     white-space: normal;
