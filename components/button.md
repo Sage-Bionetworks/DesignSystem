@@ -47,3 +47,10 @@ For Sets of Buttons, use specific labels, such as Save or Discard, instead of us
 * Glyphs used in buttons must be directly related to the action that the user is taking.
 * Glyphs must be the same color value as the text within a button.
 * Ghost buttons require a glyph icon (cannot be stand alone text because of poor affordance).
+
+## Other rules
+
+1. Rule 1
+2. Rule 2
+3. Rule 3
+4. Rule 4
