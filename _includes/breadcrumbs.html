@@ -1,15 +1,12 @@
 {% if page.group %}
-<ol class="c-breadcrumbs">
-
-	<li class="c-breadcrumbs__item">
-		<a href="{{site.baseurl}}/{{ page.group }}" class="c-breadcrumbs__link">{{ page.group | replace: '-', ' ' | capitalize }}</a>
-	</li><!-- end c-breadcrumbs__item -->
-
-	{% if page.subgroup %}
-	<li class="c-breadcrumbs__item">
-		<a href="{{site.baseurl}}/{{ page.group }}/{{ page.subgroup }}" class="c-breadcrumbs__link">{{ page.subgroup | replace: '-', ' ' | capitalize }}</a>
-	</li><!-- end c-breadcrumbs__item -->
-	{% endif %}
-
-</ol><!-- end c-breadcrumbs -->
+	<ol class="c-breadcrumbs">
+		{% for item in site.data.primary-nav %}
+			{% if item.group == page.group %}
+				<li class="c-breadcrumbs__item">
+					{{ item.title }}
+				</li><!-- end c-breadcrumbs__item -->
+				
+			{% endif %}
+		{% endfor %}
+	</ol><!-- end c-breadcrumbs -->
 {% endif %}
