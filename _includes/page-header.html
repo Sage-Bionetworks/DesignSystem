@@ -4,7 +4,7 @@
 
 	{% if page.alternative_title %}
 		<div class="c-page-header__alt_title">
-			{{ site.data.locale['alternative_name'] | default:'Also known as'}}
+			{{ site.data.locale['alternative_title'] | default:'Also known as'}}
 			{{ page.alternative_title }}
 		</div>
 	{% endif %}
