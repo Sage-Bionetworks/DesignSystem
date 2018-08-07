@@ -13,6 +13,16 @@
 }
 
 /**
+ * Alternative title
+ */
+ .c-page-header__alt_title {
+    margin-bottom: 0.5rem;
+    font-size: $font-size-med-2;
+    color: $color-gray-50;
+    max-width: $l-max-width-narrow;
+}
+
+/**
  * Page description
  */
 .c-page-header__desc {

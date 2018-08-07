@@ -1,6 +1,15 @@
 <div class="c-page-header">
 
 	<h1 class="c-page-header__title">{{ page.title }} {% if page.status %}{% include badge.html %}{% endif %}</h1>
+
+	{% if page.alternative_title %}
+		<div class="c-page-header__alt_title">
+			{{ site.data.locale['alternative_name'] | default:'Also known as'}}
+			{{ page.alternative_title }}
+		</div>
+	{% endif %}
+	
+
 	{% if page.description %}
 	<div class="c-page-header__desc">
 		{{ page.description | markdownify }}

@@ -3,6 +3,7 @@ layout: component-detail
 group: components
 
 title: Cards
+alternative_title: Panel
 description: Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
 
 variations:
