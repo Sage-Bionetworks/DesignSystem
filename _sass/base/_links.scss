@@ -6,7 +6,7 @@
  * Link base styles
  */
 a {
-	color: $color-gray-73;
+	color: $highlight_color;
 	text-decoration: none;
 	outline: 0;
 	transition: color $fade-quick ease-out, box-shadow $fade-quick ease-out;

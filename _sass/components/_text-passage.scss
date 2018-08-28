@@ -7,6 +7,13 @@
  */
 .c-text-passage {
 
+	/**
+	 * all content except tables show in narrow container
+	 */
+	*:not(table) {
+		max-width: $l-max-width-narrow;
+	}
+
 	p {
 		margin-bottom: 1rem;
 	}
@@ -47,7 +54,6 @@
 		margin-top: 6rem;
 		margin-bottom: 2rem;
 		color: $color-gray-73;
-		font-weight: bold;
 		position: relative;
 
 		&::before {
@@ -68,7 +74,7 @@
 	 * Third-level heading within text passage
 	 */
 	h3 {
-		margin: 2rem 0 1rem;
+		margin: 3rem 0 1rem;
 		color: $highlight_color;
 	}
 
