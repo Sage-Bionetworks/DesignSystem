@@ -45,7 +45,7 @@ $color-gray-02: #f9f9f9;
 $color-gray-04: #f5f5f5;
 $color-gray-07: #eee;
 $color-gray-13: #ddd;
-$color-gray-27: #bbb;
+$color-gray-27: #ccc;
 $color-gray-50: #808080;
 $color-gray-60: #666;
 $color-gray-73: #444;
@@ -84,8 +84,9 @@ $font-size-tiny: 0.65rem;
 $font-size-sm: 0.75rem;
 $font-size-sm-2: 0.85rem;
 $font-size-med: 1rem;
-$font-size-med-2: 1.25rem;
-$font-size-large: 1.4375rem;
+$font-size-med-2: 1.2rem; // h3
+$font-size-large: 1.6rem; // h2
+$font-size-large-2: 4rem; // h1
 
 
 
@@ -98,8 +99,8 @@ $font-size-large: 1.4375rem;
 /**
  * Max Width
  */
-$l-max-width: 60rem;
-$l-max-width-narrow: 36rem;
+$l-max-width: 1020px;
+$l-max-width-narrow: 620px;
 
 
 

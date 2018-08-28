@@ -5,11 +5,16 @@
  * 1) Container that consists of of a page header title and description
  */
 
+.c-page-header {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid $highlight_color;
+}
+
 /**
  * Page header title
  */
 .c-page-header__title {
-    margin-bottom: 0.2rem;
+    // margin-bottom: 0.2rem;
 }
 
 /**
@@ -17,8 +22,7 @@
  */
  .c-page-header__alt_title {
     margin-bottom: 0.5rem;
-    font-size: $font-size-med-2;
-    color: $color-gray-50;
+    font-size: $font-size-med;
     max-width: $l-max-width-narrow;
 }
 
@@ -27,8 +31,7 @@
  */
 .c-page-header__desc {
     margin-bottom: 2rem;
-    font-size: $font-size-med-2;
-    color: $color-gray-50;
+    font-size: $font-size-med;
     max-width: $l-max-width-narrow;
 }
 

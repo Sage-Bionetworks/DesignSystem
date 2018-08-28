@@ -15,7 +15,7 @@
 	 * Link within the text passage
 	 */
 	a:not(.c-btn) {
-		color: $color-gray-50;
+		color: $highlight_color;
         text-decoration: underline;
 
 		&:hover, &:focus {
@@ -44,16 +44,32 @@
 	 * Second-level heading within text passage
 	 */
 	h2 {
-		margin: 2rem 0 0.5rem;
+		margin-top: 6rem;
+		margin-bottom: 2rem;
 		color: $color-gray-73;
 		font-weight: bold;
+		position: relative;
+
+		&::before {
+			content: '';
+			width: 3rem;
+			height: 0.3rem;
+			display: block;
+			background-color: $highlight_color;
+			position: absolute;
+			top: -0.75rem;
+			left: 0;
+		}
 	}
+
+	
 
 	/**
 	 * Third-level heading within text passage
 	 */
 	h3 {
-		margin: 1rem 0 1rem;
+		margin: 2rem 0 1rem;
+		color: $highlight_color;
 	}
 
 	/**
@@ -83,7 +99,7 @@
 	 */
 	ul {
 		list-style: disc;
-		margin-left: 1rem;
+		margin-left: 3rem;
 		margin-bottom: 1rem;
 
 		li:last-child {
@@ -96,7 +112,7 @@
 	 */
 	ol {
 		list-style: decimal;
-		margin-left: 1rem;
+		margin-left: 3rem;
 		margin-bottom: 1rem;
 
 		li:last-child {

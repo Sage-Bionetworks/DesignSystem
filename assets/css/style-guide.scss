@@ -34,6 +34,7 @@ $navigation_background_color: {{ site.branding.navigation_background_color | def
 $navigation_link_color: {{ site.branding.navigation_link_color | default: '#444' }};
 $navigation_link_color_hover: {{ site.branding.navigation_link_color_hover | default: 'gray' }};
 $main_background_color: {{ site.branding.main_background_color | default: '#fff' }};
+$highlight_color: {{ site.branding.highlight_color | default: '#444' }};
 
 
 /**

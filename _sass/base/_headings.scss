@@ -9,9 +9,11 @@ h1 {
 	font-size: 2.25rem;
 	line-height: 1;
 	word-wrap: break-word;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 
 	@media all and (min-width: $bp-med) {
-		font-size: 2.75rem;
+		font-size: $font-size-large-2;
 	}
 }
 
@@ -19,7 +21,7 @@ h1 {
  * Heading 2 base styles
  */
 h2 {
-	font-size: 1.6em;
+	font-size: $font-size-large;
 	line-height: 1.2;
 	letter-spacing: -0.02rem;
 	margin-bottom: 0.5rem;
@@ -30,7 +32,7 @@ h2 {
  * Heading 3 base styles
  */
 h3 {
-	font-size: 1.2em;
+	font-size: $font-size-med-2;
 	line-height: 1.2;
 	margin-bottom: 0.3rem;
 	word-wrap: break-word;
