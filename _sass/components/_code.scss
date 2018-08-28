@@ -37,6 +37,10 @@ code[class*="language-"], pre[class*="language-"] {
     z-index: 2;
 }
 
+.preview + .pattern-code pre {
+    border-top: 0;
+}
+
 /* 3 */
 pre[class*="language-"] {
     background-color: $color-gray-04;

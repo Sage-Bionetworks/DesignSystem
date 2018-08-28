@@ -21,6 +21,7 @@
 .c-tabs__list {
 	display: flex;
 	border-bottom: 1px solid $color-gray-27;
+	margin-bottom: 1rem;
 
 	/**
 	 * Tabs list within vertical tabs
@@ -82,7 +83,7 @@
  * Tab Body
  */
 .c-tabs__body {
-	padding: 1rem 0;
+	padding: 0;
 	border-top: 0;
 
 	/**
