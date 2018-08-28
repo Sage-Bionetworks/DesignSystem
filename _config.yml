@@ -32,3 +32,6 @@ branding:
   navigation_link_color: '#444'
   navigation_link_color_hover: 'gray'
   main_background_color: '#fff'
+
+# GTM analytics
+gtm_id: GTM-XXXXXX
