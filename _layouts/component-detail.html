@@ -28,9 +28,13 @@ layout: default
 							{% if variation.description %}<div>{{ variation.description | markdownify }} </div>{% endif %}
 						</header>
 
-						{% if variation.pattern %}
-							{% capture pattern_path %}_patterns/{{ variation.pattern }}{% endcapture %}
-							{% include pattern-preview.html path=pattern_path %}
+						{% capture pattern_path %}_patterns/{{ variation.pattern }}{% endcapture %}
+						{% if variation.image %}
+							{% capture image_path %}/{{ variation.image }}{% endcapture %}
+							{% include pattern-image-preview.html pattern_path=pattern_path image_path=image_path %}
+						{% else if variation.pattern %}
+							
+							{% include pattern-live-preview.html pattern_path=pattern_path %}
 						{% endif %}
 
 					</section><!--end section-->
@@ -108,77 +112,3 @@ layout: default
 <section class="c-section c-text-passage l-linelength-container">
 	{{ content }}
 </section>
-
-{% comment %} <section class="c-section">
-
-	<div class="c-section-header ">
-
-		<h1 class="c-section-header__title">Usage</h1>
-
-	</div><!-- end c-section-header -->
-
-	<div class="c-text-passage l-linelength-container">
-
-		{% include definition-list.html %}
-
-	</div><!-- end c-text-passage -->
-
-	<div class="c-table-container">
-
-		<table class="c-table ">
-
-			<thead class="c-table__header">
-
-				<tr class="c-table__header-row">
-				<th scope="col" class="c-table__header-cell ">Class Name</th>
-				<th scope="col" class="c-table__header-cell ">Description</th>
-				</tr><!-- c-table__header-row -->
-
-			</thead><!-- end c-table__header -->
-
-			<tbody class="c-table__body ">
-				{% for class in page.classes %}
-
-				<tr class="c-table__row ">
-
-					<td class="c-table__cell ">
-						{{ class.className }}
-					</td>
-
-					<td class="c-table__cell ">
-						{% capture desc %}{{ class.description }}{% endcapture %}
-						{% if class.description %}{{ desc | markdownify }}{% endif %}
-					</td>
-
-				</tr><!-- end c-table__row -->
-				{% endfor %}
-
-			</tbody><!-- end c-table__body -->
-
-		</table><!--end c-table-->
-
-	</div><!--end c-table-container-->
-
-</section><!-- end c-section --> {% endcomment %}
-
-{% comment %} <section class="c-section">
-
-	<div class="c-section-header ">
-
-		<h1 class="c-section-header__title">Fine print</h1>
-
-	</div><!-- end c-section-header -->
-
-	<div class="c-text-passage l-linelength-container">
-		{% for print in page.fine-print %}
-        <ul>
-            <li>Version: {{ print.version }}</li>
-            <li>Last Updated: {{ print.update }}</li>
-            <li>Owner: <a href="#">{{ print.owner }}</a></li>
-        </ul>
-		{% endfor %}
-	</div><!-- end c-text-passage -->
-
-	<a href="#" class="c-btn">Discuss this component</a><!-- end c-btn -->
-
-</section><!-- end c-section --> {% endcomment %}
