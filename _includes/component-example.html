@@ -21,13 +21,13 @@
 						{% if variation.description %}<div class="u-margin-bottom u-margin-top">{{ variation.description | markdownify }} </div>{% endif %}
 					</header>
 
-					<div class="iffframe">
+					<div class="preview">
 
-						<iframe class="iffframe__iframe" frameBorder="0" width="100%" height="100%" src="{{ path | prepend: site.baseurl }}"></iframe>
+						<iframe class="preview__iframe" frameBorder="0" width="100%" height="100%" src="{{ path | prepend: site.baseurl }}"></iframe>
 
-						<div class="iffframe__handle"></div>
+						<div class="preview__handle"></div>
 
-					</div><!--end iffframe-->
+					</div><!--end preview-->
 
 					<div class="pattern-code">
 						<button class="c-btn c-btn--small pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>

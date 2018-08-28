@@ -13,7 +13,7 @@
 
 	var iframeInterval = setInterval(function(){
 		//Iframe resize height functionality
-		$('.iffframe__iframe').iFrameResize({heightCalculationMethod:'max',resizeFrom:'child'});
+		$('.preview__iframe').iFrameResize({heightCalculationMethod:'max',resizeFrom:'child'});
 		counter++;
 
 	    if (counter >= 20) {
@@ -32,7 +32,7 @@
 	var drag_element = '';
 
 	// Resizeable iframe
-	$(".iffframe__handle").on("mousedown", function(evt){
+	$(".preview__handle").on("mousedown", function(evt){
 	    drag_element = $(this).parent();
 	    drag_active = true;
 	    $(this).addClass("active");
@@ -42,8 +42,8 @@
 
 	$(document).on("mouseup", function(evt){
 	    drag_active = false;
-	    $(".iffframe__iframe").css("pointer-events", "auto");
-	    $(".iffframe__handle").removeClass("active");
+	    $(".preview__iframe").css("pointer-events", "auto");
+	    $(".preview__handle").removeClass("active");
 	});
 
 	$(document).on("mousemove", function(evt){
@@ -114,8 +114,8 @@
 	var smallButton = document.querySelectorAll(".js-small-btn");
 	var mediumButton = document.querySelectorAll(".js-medium-btn");
 	var largeButton = document.querySelectorAll(".js-large-btn");
-	var iFrame = document.querySelectorAll('.iffframe');
-	var iFrameHandle = document.querySelectorAll('.iffframe__handle');
+	var iFrame = document.querySelectorAll('.preview');
+	var iFrameHandle = document.querySelectorAll('.preview__handle');
 
 	for (i=0; i<iFrameHandle.length; i++) {
 		iFrameHandle[i].addEventListener('mouseover',function(e){

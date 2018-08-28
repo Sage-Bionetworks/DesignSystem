@@ -89,8 +89,8 @@ $main_background_color: {{ site.branding.main_background_color | default: '#fff'
 @import "components/logo";
 @import "components/icon";
 @import "components/icon-preview";
-@import "components/iffframe";
 @import "components/page-header";
+@import "components/preview";
 @import "components/primary-nav";
 @import "components/section";
 @import "components/table";

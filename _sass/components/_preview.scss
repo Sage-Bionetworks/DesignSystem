@@ -7,7 +7,7 @@
  * 1) Iffframe creates a resizable component
  */
 
- .iffframe {
+ .preview {
     padding: 1rem 0.7rem 1rem 0;
     width: 100%;
     position: relative;
@@ -19,7 +19,7 @@
   //transition: width 0.6s $anim-base-easing;
 }
 
-.iffframe__iframe {
+.preview__iframe {
     width: 100%;
     overflow: auto;
     overflow-x: auto !important;
@@ -29,7 +29,7 @@
  * Iffframe handle
  * 1) Hide resize handle for small screens
  */
-.iffframe__handle {
+.preview__handle {
   display: none; /* 1 */
     width: 0.7rem;
     height: 100%;
