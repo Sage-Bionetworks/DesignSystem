@@ -2,6 +2,6 @@
 {% assign pattern = site.patterns | where:"path", include.path | first %}
 
 <div class="pattern-code">
-    <button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">{{ site.data.locale['copy'] | default:'Copy'}}</button>
+    <button class="pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">{{ site.data.locale['copy'] | default:'Copy'}}</button>
     <pre class="highlight pattern-code-block"><code class="language-html" id="pattern-code-{{ forloop.index }}">{% highlight liquid %}{{ pattern.content }}{% endhighlight %}</code></pre>
 </div>

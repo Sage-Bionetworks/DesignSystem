@@ -17,24 +17,23 @@ code[class*="language-"], pre[class*="language-"] {
     margin-top: 0;
 }
 
-/**
-* Applied to pre element
-*/
-.pattern-code-block {
-    margin-top: 0;
-    max-height: 25rem;
-    overflow-y: auto;
-
-    .is-expanded & {
-        max-height: none;
-    }
-}
-
 .pattern-code-copy-btn {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 8px;
     z-index: 2;
+
+    background-color: $color-gray-02;
+    border: none;
+    font-size: $font-size-sm;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: $color-gray-50;
+
+    &:hover {
+        background-color: $highlight_color;
+        color: $color-white;
+    }
 }
 
 .preview + .pattern-code pre {

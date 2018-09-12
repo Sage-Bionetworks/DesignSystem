@@ -11,7 +11,7 @@
     padding: 1rem 0.7rem 1rem 0;
     width: 100%;
     position: relative;
-    border: 1px solid $color-gray-27;
+    border: 3px solid $color-gray-02;
     overflow: hidden;
     height: auto;
     background-color: $main_background_color;
@@ -37,7 +37,7 @@
     right: 0;
     top: 0;
     cursor: col-resize;
-    background-color: $color-gray-04;
+    background-color: $color-gray-02;
     transition: background-color $anim-base-duration $anim-base-easing;
 
     &:after {

@@ -57,9 +57,10 @@ code {
  */
 pre {
 	background: $color-gray-02;
-	border: 1px solid $color-gray-13;
+	border: 3px solid $color-gray-02;
 	font-size: $font-size-med;
-	padding: 1rem;
+	padding: 0;
+	margin: 0;
     overflow-x: auto;
 
 	/**
