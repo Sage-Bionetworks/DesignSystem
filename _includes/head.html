@@ -4,7 +4,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
 
 	<title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% elsif page.type == "landing" %}{{ page.parent }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	{% if page.description %}
+		<meta name="description" content="{{ page.description | strip_html | strip_newlines | truncate: 160 }}">
+	{% endif %}
 
 	<link rel="stylesheet" href="{{ "/assets/css/style-guide.css" | prepend: site.baseurl }}">
 	<link rel="icon" href="{{ "/assets/favicon.ico" | prepend: site.baseurl }}">
