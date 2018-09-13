@@ -19,6 +19,14 @@
   //transition: width 0.6s $anim-base-easing;
 }
 
+.preview--noborder {
+  border: 0;
+}
+
+.preview--noborder .preview__handle {
+  display: none;
+}
+
 .preview__iframe {
     width: 100%;
     overflow: auto;
