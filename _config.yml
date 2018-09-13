@@ -30,6 +30,7 @@ branding:
   navigation_link_color_hover: 'gray'
   main_background_color: '#fff'
   highlight_color: '#444'
+  code_background_color: '#f9f9f9'
   
 # GTM analytics
 gtm_id: GTM-XXXXXX

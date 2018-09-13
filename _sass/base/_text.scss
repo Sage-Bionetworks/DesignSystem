@@ -45,7 +45,7 @@ hr {
  */
 code {
 	display: inline-block;
-	background: $color-gray-02;
+	background: $code_background_color;
 	border: 1px solid $color-gray-27;
 	padding: .2rem .5rem;
     line-height: 1.2;
@@ -56,8 +56,8 @@ code {
  * Preformatted text base styles
  */
 pre {
-	background: $color-gray-02;
-	border: 3px solid $color-gray-02;
+	background: $code_background_color;
+	border: 3px solid $code_background_color;
 	font-size: $font-size-med;
 	padding: 0;
 	margin: 0;

@@ -2,5 +2,7 @@
 # Minimalistic icon preview for use in iframe
 ---
 
+$code_background_color: {{ site.branding.code_background_color | default: '#f9f9f9' }};
+
 @import "abstracts/variables";
 @import "components/icon-preview";

@@ -7,11 +7,11 @@
  * 1) Iffframe creates a resizable component
  */
 
- .preview {
+.preview {
     padding: 1rem 0.7rem 1rem 0;
     width: 100%;
     position: relative;
-    border: 3px solid $color-gray-02;
+    border: 3px solid $code_background_color;
     overflow: hidden;
     height: auto;
     background-color: $main_background_color;
@@ -45,7 +45,7 @@
     right: 0;
     top: 0;
     cursor: col-resize;
-    background-color: $color-gray-02;
+    background-color: $code_background_color;
     transition: background-color $anim-base-duration $anim-base-easing;
 
     &:after {

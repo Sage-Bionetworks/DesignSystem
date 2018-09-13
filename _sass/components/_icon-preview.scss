@@ -8,11 +8,12 @@
 
     text-align: center;
     margin-bottom: 14px;
-    border: 3px solid $color-gray-02;
+    border: 3px solid $code_background_color;
 }
 
 .__icon-preview__icon {
-    font-size: 40px;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .__icon-preview__value {
@@ -22,9 +23,10 @@
     width: 100%;
     margin-top: 100px;
     padding-top: 3px;
-    background-color: $color-gray-02;
+    background-color: $code_background_color;
     font-size: 12px;
     line-height: 14px;
     font-weight: 600;
     text-align: center;
 }
+
