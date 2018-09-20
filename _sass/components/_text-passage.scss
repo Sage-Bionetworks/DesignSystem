@@ -14,6 +14,11 @@
 		max-width: $l-max-width-narrow;
 	}
 
+	img {
+		max-width: $l-max-width-narrow;
+		width: 100%;
+	}
+
 	p {
 		margin-bottom: 1rem;
 	}
