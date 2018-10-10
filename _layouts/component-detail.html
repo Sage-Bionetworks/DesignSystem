@@ -36,8 +36,10 @@ layout: default
 							{% include pattern-live-preview.html pattern_path=pattern_path %}
 						{% endif %}
 
-						{% capture pattern_path %}_patterns/{{ variation.pattern }}{% endcapture %}
-						{% include pattern-code.html path=pattern_path %}
+						{% if pattern %}
+							{% capture pattern_path %}_patterns/{{ variation.pattern }}{% endcapture %}
+							{% include pattern-code.html path=pattern_path %}
+						{% endif %}
 
 					</section><!--end section-->
 
