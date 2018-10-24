@@ -39,10 +39,41 @@
 	 */
 	blockquote {
 		padding-left: 0.8rem;
+		padding-right: 0.8rem;
+		padding-top: 0.4rem;
+		padding-bottom: 0.4rem;
 		border-left: 3px solid $color-gray-73;
 		color: $color-gray-50;
-		font-size: 1rem;
+		font-size: $font-size-sm-2;
+		font-style: normal;
+
+		h4 {
+			margin: 0;
+			font-style: normal;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	blockquote.do, blockquote.dont {
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+	}
+
+	blockquote.do {
+		color: #155724;
+		background-color: #d4edda;
+		border-color: #92d9a3;
 	 }
+
+	blockquote.dont {
+		color: #721c24;
+		background-color: #f8d7da;
+		border-color: #fcafb7;
+
+	}
 
 	 /**
 	  * First-level heading within text passage

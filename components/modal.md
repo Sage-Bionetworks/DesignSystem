@@ -17,6 +17,18 @@ variations:
 
 Lorem ipsum
 
+> Regular block quote. 
+> Every page should have only one Primary Large button. Remaining large buttons should be secondary.
+
+{:.do}
+> **Use Primary Large button only for most important action on the page**
+> Every page should have only one Primary Large button. Remaining large buttons should be secondary.
+
+{:.dont}
+> #### Use Primary Large button only for most important action on the page
+> Every page should have only one Primary Large button. Remaining large buttons should be secondary.
+
+
 ## Documentation
 
 Lorem ipsum
