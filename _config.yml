@@ -16,6 +16,7 @@ url: "https://lundegaard.github.io/" # the base hostname & protocol for your sit
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Setup pattern collection
 collections:
