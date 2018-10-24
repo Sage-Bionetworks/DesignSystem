@@ -22,6 +22,11 @@ collections:
   patterns:
     output: true
 
+# If you want use Lundegaard design-system-template as jekyll theme. For more
+# info see https://github.com/lundegaard/design-system-template/wiki/Instalation/
+
+# remote_theme: lundegaard/design-system-template  # you can specify git branch or commit lundegaard/design-system-template@v0.1.0
+
 # Overriding default colors
 branding:
   logo_path: '/assets/logo.svg'
