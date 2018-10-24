@@ -4,9 +4,16 @@
 <div class="preview" style="position: relative;">
     <img src="{{ include.image_path | prepend: site.baseurl }}" style="margin-left: auto; margin-right: auto; display: block;">
 
-    {% if pattern %}
-        <a class="pattern-code-copy-btn" href="{{ pattern.url | prepend: site.baseurl }}" target="_blank">{{ site.data.locale['live_preview'] | default:'Live preview'}}</a>
-    {% endif %}
+    <div class="preview-links">
+        {% if pattern %}
+            <a class="preview-links-btn" href="{{ pattern.url | prepend: site.baseurl }}" target="_blank">{{ site.data.locale['live_preview'] | default:'Live preview'}}</a>
+        {% endif %}
+
+        <a class="preview-links-btn btn-storybook" href="{{ include.storybook_url }}" target="_blank">
+            {{ site.data.locale['storybook_preview'] | default:'Show in Storybook'}}
+        </a>
+        
+    </div>
 </div>
 
 

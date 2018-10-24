@@ -31,9 +31,9 @@ layout: default
 						{% capture pattern_path %}_patterns/{{ variation.pattern }}{% endcapture %}
 						{% if variation.image %}
 							{% capture image_path %}/{{ variation.image }}{% endcapture %}
-							{% include pattern-image-preview.html pattern_path=pattern_path image_path=image_path %}
+							{% include pattern-image-preview.html pattern_path=pattern_path image_path=image_path storybook_url=variation.storybook %}
 						{% else if variation.pattern %}
-							{% include pattern-live-preview.html pattern_path=pattern_path %}
+							{% include pattern-live-preview.html pattern_path=pattern_path storybook_url=variation.storybook %}
 						{% endif %}
 
 						{% if pattern %}

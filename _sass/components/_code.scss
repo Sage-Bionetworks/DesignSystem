@@ -17,12 +17,21 @@ code[class*="language-"], pre[class*="language-"] {
     margin-top: 0;
 }
 
-.pattern-code-copy-btn {
+.preview + .pattern-code pre {
+    border-top: 0;
+}
+
+//
+// Right top aligned buttons in previews and code
+//
+.preview-links {
     position: absolute;
     top: 2px;
     right: 8px;
     z-index: 2;
+}
 
+.preview-links-btn {
     background-color: $code_background_color;
     border: none;
     font-size: $font-size-sm;
@@ -36,8 +45,12 @@ code[class*="language-"], pre[class*="language-"] {
     }
 }
 
-.preview + .pattern-code pre {
-    border-top: 0;
+.btn-storybook {
+    background-image: url(../icons/storybook.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position-y: 3px;
+    background-position-x: 4px;
 }
 
 /* 3 */

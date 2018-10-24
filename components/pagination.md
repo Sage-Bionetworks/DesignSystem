@@ -9,6 +9,7 @@ description: Pagination is used for splitting up content or data into several pa
 variations:
 - title: Overview
   pattern: pagination/pagination.html
+  storybook: https://react-bootstrap-table.github.io/react-bootstrap-table2/storybook/index.html?selectedKind=Row%20Selection&selectedStory=Single%20Selection&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel
 ---
 
 ## Usage
