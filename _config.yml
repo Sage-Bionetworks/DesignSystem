@@ -17,7 +17,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-minifier
 sass:
   style: compressed
 
@@ -25,6 +24,9 @@ sass:
 collections:
   patterns:
     output: true
+  posts:
+    output: true
+    permalink: /release-history/:year/:month/:day/:title/
 
 # If you want use Lundegaard design-system-template as jekyll theme. For more
 # info see https://github.com/lundegaard/design-system-template/wiki/Instalation/

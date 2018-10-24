@@ -1,6 +1,6 @@
 <li class="c-primary-nav__item {% if page.group == include.group %}is-active{% endif %}">
 
-        <a class="c-primary-nav__link {% if include.group %}c-primary-nav__link--has-children js-nav-dropdown-trigger{% endif %} {% if include.url == page.url %}is-active is-current{% endif %} {% if include.group and page.group == include.group %}is-active{% endif %}" href="{% if include.group %}#{% else %}{{ include.url | prepend: site.baseurl}}{% endif %}">
+        <a class="c-primary-nav__link {% if include.group %}c-primary-nav__link--has-children js-nav-dropdown-trigger{% endif %} {% if include.url == page.url %}is-active is-current{% endif %} {% if include.group and page.group == include.group %}is-active{% endif %} {% if page.url contains include.url %}is-active{% endif %}" href="{% if include.group %}#{% else %}{{ include.url | prepend: site.baseurl}}{% endif %}">
             <span class="c-primary-nav__text">{{ include.title }}</span>
     
             {% if include.group %}
