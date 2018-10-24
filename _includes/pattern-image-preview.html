@@ -9,9 +9,11 @@
             <a class="preview-links-btn" href="{{ pattern.url | prepend: site.baseurl }}" target="_blank">{{ site.data.locale['live_preview'] | default:'Live preview'}}</a>
         {% endif %}
 
-        <a class="preview-links-btn btn-storybook" href="{{ include.storybook_url }}" target="_blank">
-            {{ site.data.locale['storybook_preview'] | default:'Show in Storybook'}}
-        </a>
+        {% if include.storybook_url %}
+            <a class="preview-links-btn btn-storybook" href="{{ include.storybook_url }}" target="_blank">
+                {{ site.data.locale['storybook_preview'] | default:'Show in Storybook'}}
+            </a>
+        {% endif %}
         
     </div>
 </div>
