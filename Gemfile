@@ -33,5 +33,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Added at 2018-10-24 16:23:33 +0200 by martin.svoboda:
 gem "jekyll-sitemap", "~> 1.2"
 
-# Added at 2018-10-24 16:47:09 +0200 by martin.svoboda:
+
+# Added at 2018-10-25 10:19:23 +0200 by martin.svoboda:
 gem "jekyll-minifier", "~> 0.1.6"
