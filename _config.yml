@@ -31,7 +31,7 @@ collections:
 
 # Configure minification
 jekyll-minifier:
-  exclude: ['*.html', '*.xml']  # Exclude xml and html files from processing (take too long to generate)
+  exclude: ['*.html', '*.xml', '*.txt']  # Exclude xml and html files from processing (take too long to generate)
 
 # If you want use Lundegaard design-system-template as jekyll theme. For more
 # info see https://github.com/lundegaard/design-system-template/wiki/Instalation/
