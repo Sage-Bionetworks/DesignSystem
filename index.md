@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Style Guide Guide
+title: Real style guide
 description: A boilerplate for creating superb style guides
 ---
+
+Our real style guide
 
 The homepage of a style guide should provide high-level information around what the design system is, what benefits it provides, who it's for, and how to get started with it. Like any good index page, it should provide clear navigation to key parts of the website.
 
