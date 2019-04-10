@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started
+title: Getting Started with Sage Design
 description: The getting started page should provide information for how to get up and running with the design system.
 ---
 
