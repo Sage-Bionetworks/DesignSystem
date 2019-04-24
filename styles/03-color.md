@@ -20,6 +20,8 @@ description: Color brings a design to life. Color is versatile; it's used to exp
 {% include color-preview.html name="Info" hexcode="#17a2b8" %}
 {% include color-preview.html name="Black" hexcode="#000000" %}
 {% include color-preview.html name="White" hexcode="#111111" %}
+{% include color-preview.html name="Purple" hexcode="#111111" %}
+
 
 
 ## Additional colors
