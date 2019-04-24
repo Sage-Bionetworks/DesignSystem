@@ -4,7 +4,7 @@ title: Getting Started with Sage Design
 description: The getting started page should provide information for how to get up and running with the design system.
 ---
 
-## Downloading
+## Downloadinggggg
 Provide links and information for downloading the design system's files:
 
 <div><a href="{{ "/downloads.html" | prepend: site.baseurl }}" class="c-btn">Download Design System Files</a></div>
