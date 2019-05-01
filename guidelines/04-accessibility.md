@@ -1,7 +1,7 @@
 ---
 layout: page
 type: detail
-title: Accessibility
+title: Accessibility - new text testing 
 group: guidelines
 permalink: /guidelines/accessibility.html
 description: Describe the design system's approach to accessibility
