@@ -6,3 +6,9 @@ description: The about page should provide a bit more high-level information abo
 
 ## Heading
 Heading content
+
+~~~~
+This is a 
+piece of code 
+in a block
+~~~~
