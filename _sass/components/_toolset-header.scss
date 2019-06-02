@@ -1,0 +1,196 @@
+/*------------------------------------*\
+    #TOOLSET HEADER
+\*------------------------------------*/
+
+.c-tools__mobile {
+  display: none;
+
+  @media screen and (max-width: $bp-med-2) {
+    display: block;
+  }
+}
+
+
+.privacy-page-layout__header {
+  margin-left: 0;
+  width: 100%;
+  overflow-x: hidden;
+
+  .scale-on-hover {
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+
+    &:hover { transform: scale(1.02); }
+  }
+
+  .c-tools__header {
+    width: 100%;
+    height: 340px;
+    
+    .c-tools__header-img {
+      width: 100%;
+      background: #FCE5BD;
+      height: 340px;
+      object-fit: cover;
+    }
+
+    .c-tools__top-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      clear: left;
+      padding: 30px;
+
+      .c-tools__icon {
+        float: left;
+        position: relative;
+        cursor:pointer;
+        left: 0%;
+        width: 25%;
+        min-height: 120px;
+        min-width: 150px;
+        max-width: 250px;
+      }
+
+      .c-tools__right {
+        float: right;
+
+        .c-tools__item {
+          cursor:pointer;
+          margin-top: 20px;
+          margin-left: 80px;
+          float: left;
+
+          .c-tools__mobile-menu {
+            position: relative;
+            top: 11px;
+            background: white;
+            z-index: 100;
+            transition: all .2s;
+            transform-origin: top right;
+            right: 20px;
+
+            &.show {
+              transform: scale(1);
+            }
+
+            &.hide {
+              transform: scale(0);
+            }
+
+            .c-tools__mobile-item {
+              text-align: left;
+              border-top: 1px solid #151515;
+              padding-left: 2em;
+              padding-right: 2em;
+              font-size: 1.3em;
+              padding-top: 0.5em;
+              padding-bottom: 0.5em;
+            }
+
+            .c-tools__mobile-item:first-of-type {
+              border-top: none;
+            }
+            
+          }
+
+          &.c-tools__menu {
+            text-align: right;
+
+            @media screen and (max-width: $bp-small-2) {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+            }
+
+            .c-tools__item-name {
+              
+              padding-right: 20px;
+
+              &.highlighted {
+                background: white;
+              }
+            }
+          }
+
+
+          &.mobile {
+            display: none;
+          }
+          
+          @media screen and (max-width: $bp-med-2) {
+            display:none;
+
+            &.mobile {
+              display: block;
+            }
+          }
+
+          img {
+            height: 30px;
+            position: relative;
+            top: -5px;
+          }
+        }
+      }
+
+      .c-tools__headline {
+        font-weight: 200;
+        width: 100%;
+        text-align: center;
+        clear: left;
+        font-size: 1.65em;
+        position: relative;
+        top: -35px;
+        color: #2A4D63;
+        padding-left: 20%;
+        padding-right: 20%;
+
+        @media screen and (max-width: $bp-med-2) {
+          font-size: 1.45em;
+          padding-left: 10%;
+          padding-right: 10%;
+          clear: both;
+        }
+        
+        @media screen and (max-width: $bp-small-1) {
+          font-size: 1.25em;
+        }
+      }
+
+      .c-tools_header-buttons {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        clear: left;
+        
+        @media screen and (max-width: $bp-med-2) {
+          margin-top: 0px;
+        }
+
+        button {
+          background: #fff;
+          border-radius: 100px;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          font-weight: 500;
+          margin-left: 5px;
+          margin-right: 5px;
+          border: 0;
+          font-size: 0.9em;
+
+          @media screen and (max-width: $bp-small-1) {
+              padding-left: 15px;
+              padding-right: 15px;
+              margin-left: 3px;
+              margin-right: 3px;
+              font-size: .7em;
+          }
+        }
+      }
+    }
+  }
+}

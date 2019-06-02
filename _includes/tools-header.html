@@ -1,0 +1,39 @@
+<div class="c-tools__header">
+  <img class="c-tools__header-img" src="{{ "/images/tools-header.png" | prepend: site.baseurl }}">
+  <div class="c-tools__top-bar">
+    <div class="c-tools__icon">
+      <img src="{{ "/images/privacy-toolset-icon.svg" | prepend: site.baseurl }}">
+    </div>
+    <div class="c-tools__right ">
+      <div class="c-tools__item">About</div>
+      <div class="c-tools__item">Contribute</div>
+      <div class="c-tools__item c-tools__menu mobile">
+        <div class="c-tools__item-name">Menu</div>
+        <div class="c-tools__mobile-menu hide">
+          <div class="c-tools__mobile-item"><a href="#">About</a></div>
+          <div class="c-tools__mobile-item"><a href="#">Contribute</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-tools__headline">A toolset for biomedical researchers of best practices for privacy in digital studies.</div>
+
+    <div class="c-tools_header-buttons">
+      <button class="scale-on-hover">Privacy UI Patterns</button>
+      <button class="scale-on-hover">Github</button>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $('.c-tools__menu').click(event => {
+    let clickedArrow = $(".c-tools__mobile-menu");
+    if (clickedArrow.hasClass("show")) {
+      clickedArrow.addClass("hide");
+      clickedArrow.removeClass("show");
+    } else {
+      clickedArrow.addClass("show");
+      clickedArrow.removeClass("hide");
+    }
+  })
+</script>

@@ -49,8 +49,18 @@ $color-gray-27: #ccc;
 $color-gray-50: #808080;
 $color-gray-60: #666;
 $color-gray-73: #444;
+$color-gray-91: #EAEBEE;
 $color-gray-93: #131313;
+$color-gray-16: #2A2A2A;
 $color-black: #000;
+$color-blue: #2A4D63;
+$color-cream: #FEFAF2;
+$color-dark-cream: #FEF8EF;
+$rose-300: #E566A1;
+$turquoise-300: #3DD6C8;
+$lavendar-300: #7692D9;
+$powder-300: #7EC8CC;
+$coral-300: #F47E6C;
 
 
 /**
@@ -163,6 +173,7 @@ $anim-base-duration: .3s;
  * Breakpoints used in media queries
  */
 $bp-small: 24em;
+$bp-small-1: 350px;
 $bp-small-2: 29.75em;
 $bp-small-3: 39.8em;
 $bp-med: 46.8em;

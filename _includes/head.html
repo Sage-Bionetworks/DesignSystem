@@ -10,6 +10,7 @@
 
 	<link rel="stylesheet" href="{{ "/assets/css/style-guide.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
 	<link rel="stylesheet" href="{{ "/assets/css/print.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" media="print">
+	<link rel="stylesheet" href="{{ "/assets/css/flickity.min.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" media="print">
 	<link rel="icon" href="{{ "/assets/favicon.ico" | prepend: site.baseurl }}">
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -29,4 +30,7 @@
 	})(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
 	<!-- End Google Tag Manager -->
 	{% endif %}
+
+	<script type="text/javascript" src="{{ "/assets/js/vendor/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "/assets/js/vendor/flickity.min.js" | prepend: site.baseurl }}"></script>
 </head>

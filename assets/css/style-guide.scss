@@ -99,6 +99,8 @@ $code_background_color: {{ site.branding.code_background_color | default: '#f9f9
 @import "components/tabs";
 @import "components/text-passage";
 @import "components/tile";
+@import "components/toolset-header";
+@import "components/toolset-body";
 
 
 
