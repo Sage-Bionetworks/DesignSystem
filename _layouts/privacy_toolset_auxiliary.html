@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
         {% if site.gtm_id %}
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -12,22 +10,18 @@
         {% endif %}
 
         <div class="l-page-layout l-page-layout--two-column-fixed">
+            <div class="privacy-page-auxiliary-layout__header">
+              {% include auxiliary-header.html %}
+            </div>
 
-            <div class="privacy-page-layout__header">
+              <main>
+                <div class="b-auxiliary__content">
+                  {{ content }}
+                </div>
 
-                {% include tools-header.html %}
-                <main>
-                  <div>
-                        {% include toolset-body.html %}
-
-                  </div><!--end l-container-->
-                  {% include toolset-footer.html %}
-        </main><!--end role=main-->
-
-            </div><!--end l-page-layout__main-->
-
-        </div><!--end l--two-column-fixed-->
-
+              </main>
+            {% include toolset-footer.html %}
+        </div>
         {% include scripts.html %}
   </body>
 

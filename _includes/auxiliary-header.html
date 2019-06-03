@@ -1,0 +1,48 @@
+<div class="c-auxiliary__header">
+  <div class="c-auxiliary__top-bar">
+    <div class="c-auxiliary__icon">
+      <img src="{{ "/images/privacy-toolset-icon.svg" | prepend: site.baseurl }}">
+    </div>
+    <div class="c-auxiliary__right ">
+      <div class="c-auxiliary__item"><a href="./contribute.html">About</a></div>
+      <div class="c-auxiliary__item"><a href="./contribute.html">Contribute</a></div>
+      <div class="c-auxiliary__item c-auxiliary__menu mobile">
+        <div class="c-auxiliary__item-name">Menu</div>
+        <div class="c-auxiliary__mobile-menu hide">
+          <div class="c-auxiliary__mobile-item"><a href="./contribute.html">About</a></div>
+          <div class="c-auxiliary__mobile-item"><a href="./contribute.html">Contribute</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-auxiliary__headline-container">
+      <div class="c-auxiliary__headline-left">
+        <div class="c-auxiliary__headline">
+          <div class="c-auxiliary__headline-title">{{ page.title }}</div>
+          <div class="c-auxiliary__headline-description">{{ page.description }}</div>
+        </div>
+
+        <div class="c-auxiliary_header-buttons">
+          <button class="scale-on-hover">Privacy UI Patterns</button>
+          <button class="scale-on-hover"><a href="https://github.com/quantified-health/design-system-template">Github</a></button>
+        </div>
+      </div>
+      <div class="c-auxiliary__headline-right c-auxiliary__desktop">
+        <img src="{{ "/images/just-in-time-permission-header.svg" | prepend: site.baseurl }}">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $('.c-auxiliary__menu').click(event => {
+    let clickedArrow = $(".c-auxiliary__mobile-menu");
+    if (clickedArrow.hasClass("show")) {
+      clickedArrow.addClass("hide");
+      clickedArrow.removeClass("show");
+    } else {
+      clickedArrow.addClass("show");
+      clickedArrow.removeClass("hide");
+    }
+  })
+</script>
