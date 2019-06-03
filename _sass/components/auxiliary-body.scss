@@ -136,17 +136,25 @@
         .c-auxiliary__step {
           clear: both;
           margin-top: 20px;
+            
+          @media screen and (max-width: $bp-med-2) {
+            font-size: 0.9em;
+          }
 
           .c-auxiliary__step-left {
             float: left;
             height: 80px;
             width: 8%;
-            min-width: 80px;
+            min-width: 60px;
             color: $slate-300;
             font-weight: 700;
             
             @media screen and (max-width: $bp-med-2) {
               height: 200px;
+            }
+            
+            @media screen and (max-width: $bp-small-4) {
+              height: 300px;
             }
           }
 

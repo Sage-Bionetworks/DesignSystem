@@ -57,6 +57,10 @@
         cursor: pointer;
         color: white;
 
+        a {
+          color: white;
+        }
+
         @media screen and (max-width: $bp-med-2) {
           width: 100%;
           text-align: center;
