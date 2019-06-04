@@ -111,6 +111,116 @@ description: Apps usually bombard users with permissions screens requesting acce
     <img id="c-auxiliary__fulscreen-img-close" src="{{ "/images/ic-close.svg" | prepend: site.baseurl }}">
   </div>
 </div>
+
+<div class="c-auxiliary__message-block">
+  <div class="c-auxiliary__message-block-title">
+    <div class="c-auxiliary__message-block-title-text">Resources</div>
+    <div target="#sixth-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
+      <img target="#sixth-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+    </div>
+  </div>
+  <div id="sixth-pattern" class="c-auxiliary__message-block-description hide">
+    <div class="c-auxiliary__resources">
+      <div class="c-auxiliary__resource-title">Case Studies</div>
+      <div class="c-auxiliary__resource highlight">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title">How to Ask for App Permissions</div>
+              <div class="c-auxiliary__resources-subtitle">Luke Wroblewski</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Watch Video</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-auxiliary__resource">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title">What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?</div>
+              <div class="c-auxiliary__resources-subtitle">Luke Wroblewski</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Read Article</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-auxiliary__resource highlight">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title">Permission and Best Practices</div>
+              <div class="c-auxiliary__resources-subtitle">Sarah Gold</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Read Article</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-auxiliary__resources">
+      <div class="c-auxiliary__resource-title">Resources</div>
+      <div class="c-auxiliary__resource highlight">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title single-line">Just-In-Time Permissions Patterns</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Watch Video</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-auxiliary__resource">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title single-line">iOS GitHub Repo</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Read Article</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-auxiliary__resource highlight">
+        <div class="c-auxiliary__resource-container">
+          <div class="c-auxiliary__resource-left">
+            <div class="c-auxiliary__resources-image">
+              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
+            </div>
+            <div class="c-auxiliary__resource-image-description">
+              <div class="c-auxiliary__resources-title single-line">Android GitHub Repo</div>
+            </div>
+          </div>
+          <div class="c-auxiliary__resource-right">
+            <div class="c-auxiliary__resources-button">Read Article</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <script>
   $('.c-auxiliary__expand-arrow').click(event => {
     console.log('click')

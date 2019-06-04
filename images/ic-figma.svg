@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1224.000000, -888.000000)" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(1224.000000, 888.000000)">
+                <g id="Group-2" fill="#FCE5BD">
+                    <g id="Ellipse-2.8">
+                        <circle id="Oval" cx="25" cy="25" r="25"></circle>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(15.000000, 11.000000)" fill="#F5B33C">
+                    <path d="M4.83333,29 C7.50133,29 9.66667,26.8347 9.66667,24.1667 L9.66667,19.3334 L4.83333,19.3334 C2.16533,19.3334 0,21.4987 0,24.1667 C0,26.8347 2.16533,29 4.83333,29 Z" id="Shape"></path>
+                    <path d="M0,14.5 C0,11.832 2.16533,9.66663 4.83333,9.66663 L9.66667,9.66663 L9.66667,19.3333 L4.83333,19.3333 C2.16533,19.3333 0,17.168 0,14.5 Z" id="Shape"></path>
+                    <path d="M0,4.83333 C0,2.16533 2.16533,0 4.83333,0 L9.66667,0 L9.66667,9.66667 L4.83333,9.66667 C2.16533,9.66667 0,7.50133 0,4.83333 Z" id="Shape"></path>
+                    <path d="M9.66667,0 L14.5,0 C17.168,0 19.3333,2.16533 19.3333,4.83333 C19.3333,7.50133 17.168,9.66667 14.5,9.66667 L9.66667,9.66667 L9.66667,0 Z" id="Shape"></path>
+                    <path d="M19.3333,14.5 C19.3333,17.168 17.168,19.3333 14.5,19.3333 C11.832,19.3333 9.66667,17.168 9.66667,14.5 C9.66667,11.832 11.832,9.66663 14.5,9.66663 C17.168,9.66663 19.3333,11.832 19.3333,14.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

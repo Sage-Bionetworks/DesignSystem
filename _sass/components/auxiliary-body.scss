@@ -1,4 +1,5 @@
 .b-auxiliary__content {
+
   .b-tools__mobile {
     display: none;
     @media screen and (max-width: $bp-med-2) {
@@ -253,5 +254,100 @@
       right: 30px;
       height: 30px;
     }
+  }
+
+  .c-auxiliary__resources {
+    clear: both;
+    padding-top: 46px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+
+    .c-auxiliary__resource-title {
+      font-size: 20px;
+      padding-left: 50px;
+    }
+
+    .c-auxiliary__resource {
+
+      &.highlight {
+        background: $butterscotch-50;
+      }
+
+      .c-auxiliary__resource-container {
+        clear: both;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        min-height: 100px;
+
+        .c-auxiliary__resource-left {
+          float: left;
+          width: 80%;
+
+          .c-auxiliary__resources-image {
+            float: left;
+            img {
+              height: 50px;
+              width: 50px;
+            }
+          }
+          
+          .c-auxiliary__resource-image-description {
+            float: left;
+            padding-left: 20px;
+
+            @media screen and (max-width: 900px) {
+              width: calc(100% - 50px);
+            }
+
+            .c-auxiliary__resources-title {
+              font-size: 18px;
+              line-height: 22px;
+
+              &.single-line {
+                margin-top: 12px;
+              }
+              
+              @media screen and (max-width: 900px) {
+                font-size: 16px;
+              }
+            }
+            
+            .c-auxiliary__resources-subtitle {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .c-auxiliary__resource-right {
+          float: right;
+          margin-top: 17px;
+
+          @media screen and (max-width: 900px) {
+            float: none;
+            clear: both;
+            padding-top: 15px;
+          }
+
+          .c-auxiliary__resources-button {
+            background: $color-blue;
+            border-radius: 100px;
+            padding-left: 35px;
+            padding-right: 35px;
+            line-height: 170.62%;
+            font-weight: 500;
+            border: 0;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 17px;
+          }
+        }
+      }
+
+    }
+
   }
 }

@@ -4,7 +4,6 @@
 
 .privacy-page-auxiliary-layout__header {
 
-
   margin-left: 0;
   width: 100%;
   overflow-x: hidden;
@@ -77,6 +76,69 @@
         float: right;
         padding-right: 30px;
 
+
+        .c-auxiliary__mobile-menu {
+          position: fixed;
+          top: 0px;
+          background: white;
+          z-index: 100;
+          transition: all .2s;
+          transform-origin: top right;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+
+          .c-auxiliary__mobile-menu-container {
+            padding-left: 60px;
+            margin-top: 100px;
+            font-size: 20px;
+
+            .c-auxiliary__mobile-item {
+              text-align: left;
+              padding-bottom: 0.5em;
+              padding-top: 24px;
+              a {
+                font-weight: 300;
+                color: $color-blue;
+
+                &.highlighted {
+                  border-bottom: 4px solid #FCE5BD;
+                }
+              }
+            }
+
+            .c-auxiliary__mobile-sub-item {
+              padding-left: 60px;
+              text-align: left;
+              padding-top: 24px;
+
+              a {
+                font-weight: 200;
+                color: $color-blue;
+              }
+            }
+
+            .c-auxiliary__mobile-item:first-of-type {
+              border-top: none;
+            }
+          
+          }
+
+          &.show {
+            transform: scale(1);
+          }
+
+          &.hide {
+            transform: scale(0);
+          }
+
+          .c-auxiliary__close-icon {
+            position: absolute;
+            top: 35px;
+            right: 35px;
+          }
+        }
+
         .c-auxiliary__item {
           cursor:pointer;
           margin-top: 20px;
@@ -86,39 +148,6 @@
           a {
             color: $color-blue;
             font-size: 20px;
-          }
-
-          .c-auxiliary__mobile-menu {
-            position: relative;
-            top: 11px;
-            background: white;
-            z-index: 100;
-            transition: all .2s;
-            transform-origin: top right;
-            right: 20px;
-
-            &.show {
-              transform: scale(1);
-            }
-
-            &.hide {
-              transform: scale(0);
-            }
-
-            .c-auxiliary__mobile-item {
-              text-align: left;
-              border-top: 1px solid #151515;
-              padding-left: 2em;
-              padding-right: 2em;
-              font-size: 1.3em;
-              padding-top: 0.5em;
-              padding-bottom: 0.5em;
-            }
-
-            .c-auxiliary__mobile-item:first-of-type {
-              border-top: none;
-            }
-            
           }
 
           &.c-auxiliary__menu {
