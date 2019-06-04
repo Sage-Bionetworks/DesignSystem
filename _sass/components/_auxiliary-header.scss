@@ -2,29 +2,41 @@
     #AUXILIARY HEADER
 \*------------------------------------*/
 
-.c-auxiliary__mobile {
-  display: none;
-
-  @media screen and (max-width: $bp-med-2) {
-    display: block;
-  }
-}
-
-.c-auxiliary__desktop {
-  display: block;
-
-  @media screen and (max-width: $bp-med-2) {
-    display: none;
-  }
-}
-
-
 .privacy-page-auxiliary-layout__header {
+
+
   margin-left: 0;
   width: 100%;
   overflow-x: hidden;
-  padding-bottom: 30px;  
   background: $color-darker-cream;
+  font-family: Lato;
+
+  @media screen and (max-width: $bp-med-2) {
+    padding-bottom: 30px;
+  }
+
+  .b-tools__mobile {
+    display: none;
+    @media screen and (max-width: $bp-med-2) {
+      display: block;
+    }
+  }
+
+  .c-auxiliary__mobile {
+    display: none;
+
+    @media screen and (max-width: $bp-med-2) {
+      display: block;
+    }
+  }
+
+  .c-auxiliary__desktop {
+    display: block;
+
+    @media screen and (max-width: $bp-med-2) {
+      display: none;
+    }
+  }
 
   .scale-on-hover {
     transform: scale(1);
@@ -71,6 +83,11 @@
           margin-left: 80px;
           float: left;
 
+          a {
+            color: $color-blue;
+            font-size: 20px;
+          }
+
           .c-auxiliary__mobile-menu {
             position: relative;
             top: 11px;
@@ -114,11 +131,17 @@
             }
 
             .c-auxiliary__item-name {
-              
+              color: black;
               padding-right: 20px;
+              font-weight: 300;
 
               &.highlighted {
                 background: white;
+              }
+
+
+              @media screen and (max-width: $bp-med-2) {
+                font-size: 16px;
               }
             }
           }
@@ -147,6 +170,7 @@
       .c-auxiliary__headline-container {
           clear: both;
           width: 100%;
+          color: $color-gray-16;
 
           .c-auxiliary__headline-left {
             width: 50%;
@@ -164,12 +188,11 @@
               font-size: 1.65em;
               position: relative;
               top: -35px;
-              color: #2A4D63;
 
               @media screen and (max-width: $bp-med-2) {
                 font-size: 1.45em;
                 clear: both;
-                top: -50px;
+                top: -68px;
               }
               
               @media screen and (max-width: $bp-small-1) {
@@ -178,12 +201,24 @@
 
               .c-auxiliary__headline-title {
                 font-weight: 300;
-                font-size: 1.3em;
+                font-size: 30px;
+                color: $color-gray-16;
+
+                @media screen and (max-width: $bp-med-2) {
+                  font-size: 20px;
+                }
               }
 
               .c-auxiliary__headline-description {
-                font-size: 0.55em;
-                font-weight: 100;
+                font-size: 16px;
+                font-weight: 200;
+                margin-top: 15px;
+                line-height: 21px;
+                letter-spacing: 0.5px;
+
+                @media screen and (max-width: $bp-med-2) {
+                  font-size: 16px;
+                }
               }
             }
 
@@ -208,7 +243,7 @@
                 margin-left: 5px;
                 margin-right: 5px;
                 border: 0;
-                font-size: 0.9em;
+                font-size: 16px;
 
                 @media screen and (max-width: $bp-small-1) {
                     padding-left: 15px;

@@ -1,4 +1,12 @@
 .b-auxiliary__content {
+  .b-tools__mobile {
+    display: none;
+    @media screen and (max-width: $bp-med-2) {
+      display: block;
+    }
+  }
+
+  font-family: Lato;
   margin-bottom: -50px;
   h2 {
     padding-left: 50px;
@@ -36,9 +44,17 @@
         padding-top: 30px;
         font-weight: 300;
         color: #2a2a2a;
-        font-size: 1.5em;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: -0.5px;
         float: left;
         width: 88%;
+        
+        @media screen and (max-width: $bp-med-2) {
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.5px;
+        }
       }
       
       .c-auxiliary__mesage-block-title-arrow {
@@ -69,22 +85,24 @@
 
       .c-auxiliary__message-block-view-larger {
         clear: both;
+        height: 25px;
+        overflow: hidden;
+        font-weight: 300;
+        margin-top: 12px;
 
         .c-auxiliary__message-block-view-larger-left {
           float: left;
           margin-left: 18px;
-          margin-top: 24px;
-          font-size: 1.1em;
-          color: $color-gray-60;
+          font-size: 14px;
+          color: $cloud-500;
         }
         .c-auxiliary__message-block-view-larger-right {
           float: right;
 
           img {
-            width: 35px;
+            width: 23.52px;
             margin-right: 17px;
             position: relative;
-            margin-top: 15px;
           }
         }
       }
@@ -108,7 +126,10 @@
         
         .c-auxiliary__image-block-title {
           font-weight: 700;
-          font-size: 0.9em;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.5px;
+          color: $color-gray-16;
           width: 100%;
           padding-left: 50px;
           padding-right: 50px;
@@ -117,6 +138,9 @@
           @media screen and (max-width: $bp-med-2) {
             background-color: white !important;
             padding-bottom: 30px;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.5px;
           }
         }
 
@@ -128,14 +152,23 @@
       .c-auxiliary__message-block-description-item {
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 20px;
-        font-size: 0.95em;
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.5px;
         line-height: 1.3em;
-        font-weight: 100;
+        font-weight: 200;
+        margin-top: 10px;
+
+        @media screen and (max-width: $bp-med-2) {
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.5px;
+        }
 
         .c-auxiliary__step {
           clear: both;
-          margin-top: 20px;
+          margin-bottom: 45px;
             
           @media screen and (max-width: $bp-med-2) {
             font-size: 0.9em;
@@ -146,11 +179,15 @@
             height: 80px;
             width: 8%;
             min-width: 60px;
-            color: $slate-300;
+            color: $cloud-400;
             font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: -0.5px;
             
             @media screen and (max-width: $bp-med-2) {
               height: 200px;
+              font-size: 15px;
             }
             
             @media screen and (max-width: $bp-small-4) {
@@ -162,13 +199,24 @@
             width: 90%;
 
             .c-auxiliary__step-title {
-              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              letter-spacing: -0.5px;
+              font-weight: 500;
+              color: rgba(0, 0, 0, 0.87);
+              
+              @media screen and (max-width: $bp-med-2) {
+                font-size: 18px;
+              }
             }
 
             .c-auxiliary__step-description {
-              font-weight: 100;
+              font-weight: 200;
               margin-top: 10px;
-              color: $color-gray-60;
+              font-size: 16px;
+              line-height: 19px;
+              letter-spacing: 0.5px;
+              color: rgba(0, 0, 0, 0.6);
             }
           }
         }

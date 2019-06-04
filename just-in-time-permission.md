@@ -36,7 +36,7 @@ description: Apps usually bombard users with permissions screens requesting acce
     <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
       <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
       <div class="c-auxiliary__message-block-view-larger-right">
-        <img target="#first-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.svg" | prepend: site.baseurl }}">
+        <img target="#first-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ description: Apps usually bombard users with permissions screens requesting acce
     <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
       <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
       <div class="c-auxiliary__message-block-view-larger-right">
-        <img target="#second-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.svg" | prepend: site.baseurl }}">
+        <img target="#second-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
       </div>
     </div>
   </div>

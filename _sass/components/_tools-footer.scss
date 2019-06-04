@@ -6,6 +6,13 @@
   margin-top: 50px;
   clear: both;
 
+  .b-tools__desktop {
+    display: block;
+    @media screen and (max-width: $bp-med-2) {
+      display: none;
+    }
+  }
+
   &.no-margin {
     margin-top: 0px;
   }
@@ -27,9 +34,11 @@
     .b-tools__heading {
       color: $color-blue;
       text-align: left;
-      line-height: 4em;
       clear: left;
-      margin-bottom: -10px;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 60px;
+      padding-top: 19px;
     }
     
     .b-tools__description {
@@ -47,7 +56,7 @@
         margin-right: 20px;
         background: $color-blue;
         border-radius: 100px;
-        padding-left: 18px;
+        padding-left: 25px;
         padding-right: 25px;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -59,6 +68,11 @@
 
         a {
           color: white;
+          line-height: 140.62%;
+
+          @media screen and (max-width: $bp-med-2) {
+            font-size: 16px;
+          }
         }
 
         @media screen and (max-width: $bp-med-2) {
@@ -70,7 +84,6 @@
     }
     
     .b-tools__description {
-      padding-top: 20px;
     }
 
     .b-tools__links {
@@ -84,11 +97,13 @@
       
       .b-tools__link {
         float: left;
+        font-weight: 300;
         margin-right: 5%;
-        color: $color-blue;
+        color: $color-gray-16;
 
         a {
           text-decoration: underline;
+          color: $color-blue;
         }
       }
     }
