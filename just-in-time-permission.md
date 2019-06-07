@@ -57,7 +57,7 @@ description: Apps usually bombard users with permissions screens requesting acce
 
   <div class="c-auxiliary__image-block">
     <div style="background-color: #F7FDFA" class="c-auxiliary__image-block-title">Best Practice: Just-In-Time Permission</div>
-    <img id="second-image" style="background-color: #F7FDFA" src="{{ "/images/worst-just-in-time-permission.png" | prepend: site.baseurl }}">
+    <img id="second-image" style="background-color: #F7FDFA" src="{{ "/images/best-just-in-time-permission.png" | prepend: site.baseurl }}">
   </div>
     <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
       <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
