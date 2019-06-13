@@ -1,75 +1,60 @@
 <div class="b-tools__heading">
-  What is a Privacy Toolset?
+  {{ page.title }}
 </div>
+
 <div class="b-tools__features b-tools__desktop">
-  <div class="b-tools__feature">
-    <img src="{{ "/images/respectful-trustworthy.svg" | prepend: site.baseurl }}">
-    <div class="b-tools__feature-title">Respectful & Trustworthy</div>
-    <div class="b-tools__feature-description">A simple approach that helps researchers create digital research study's interfaces that are respectful and trustworthy.</div>
-  </div>
-  <div class="b-tools__feature">
-    <img src="{{ "/images/curated-interface-patterns.svg" | prepend: site.baseurl }}">
-    <div class="b-tools__feature-title">Curated Interface Patterns</div>
-    <div class="b-tools__feature-description">This curated collection of established interface patterns provide biomedical researchers with clear examples of when and where these patterns should be used in the app.</div>
-  </div>
-  <div class="b-tools__feature">
-    <img src="{{ "/images/participant-centered.svg" | prepend: site.baseurl }}">
-    <div class="b-tools__feature-title">Participant Centered</div>
-    <div class="b-tools__feature-description">Participants have a better understanding of how their data is contributing to research but also retain their ability to control their data.</div>
-  </div>
+  {% for feature in page.features %}
+    <div class="b-tools__feature">
+      <img src="{{ feature.image | prepend: '/images/' | prepend: site.baseurl }}">
+      <div class="b-tools__feature-title">{{ feature.title }}</div>
+      <div class="b-tools__feature-description">{{ feature.description }}</div>
+    </div>
+  {% endfor %}
 </div>
 
 <div class="swiper-container b-tools__features b-tools__mobile" id="swiper">
+  {% for feature in page.features %}
     <div class="b-tools__feature">
-      <img src="{{ "/images/respectful-trustworthy.svg" | prepend: site.baseurl }}">
-      <div class="b-tools__feature-title">Respectful & Trustworthy</div>
-      <div class="b-tools__feature-description">A simple approach that helps researchers create digital research study's interfaces that are respectful and trustworthy.</div>
+      <img src="{{ feature.image | prepend: '/images/' | prepend: site.baseurl }}">
+      <div class="b-tools__feature-title">{{ feature.title }}</div>
+      <div class="b-tools__feature-description">{{ feature.description }}</div>
     </div>
-    <div class="b-tools__feature">
-      <img src="{{ "/images/curated-interface-patterns.svg" | prepend: site.baseurl }}">
-      <div class="b-tools__feature-title">Curated Interface Patterns</div>
-      <div class="b-tools__feature-description">This curated collection of established interface patterns provide biomedical researchers with clear examples of when and where these patterns should be used in the app.</div>
-    </div>
-    <div class="b-tools__feature">
-      <img src="{{ "/images/participant-centered.svg" | prepend: site.baseurl }}">
-      <div class="b-tools__feature-title">Participant Centered</div>
-      <div class="b-tools__feature-description">Participants have a better understanding of how their data is contributing to research but also retain their ability to control their data.</div>
-    </div>
+  {% endfor %}
 </div>
 
 <br />
 <br />
 <div class="b-tools__heading padded">
-  Using the Privacy Toolset for your Digital Study
+  {{ page.pattern_title }}
 </div>
-<div class="b-tools__subheading">Connecting with your users through multiple touchpoints throughout all of the stages of your study.</div>
+<div class="b-tools__subheading">{{ page.pattern_subtitle }}</div>
 <div class="b-tools__journey">
   <img src="{{ "/images/privacy-toolset-journey.svg" | prepend: site.baseurl }}">
 </div>
 
-
 <div class="b-tools__patterns">
+  {% for pattern in page.patterns %}
   <div class="b-tools__pattern">
     <div class="b-tools__pattern-left">
-      <img src="{{ "/images/privacy-heart-capture-feature.svg" | prepend: site.baseurl }}">
+      <img src="{{ pattern.image | prepend: '/images/' | prepend: site.baseurl }}">
     </div>
     <div class="b-tools__pattern-right">
-      <div class="b-tools__pattern-color b-tools__mobile rose"></div>
+      <div class="b-tools__pattern-color b-tools__mobile" style="background: #{{ pattern.header_color }}"></div>
       <div class="b-tools__title-container">
-        <div class="title">Getting Started</div>
+        <div class="title">{{ pattern.title }}</div>
         <div class="right b-tools__mobile">
           <img target="#first-pattern" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
         </div>
       </div>
       <div class="b-tools__description-container extended hide" id="first-pattern">
           <div class="description">
-            Explore some of the respectful ways to approach privacy and data collection in all the participants’ touchpoints in your digital research study. Here are some best practices on how to deal with the notorious cookie prompts, intrusive permission requests, off-putting push notifications, and offboarding experience. 
+            {{ pattern.description }} 
           </div>
           
           <div class="b-tools__links">
-            <div class="b-tools__link"><a href="#">Cookies Permission</a></div>
-            <div class="b-tools__link"><a href="#">Privacy Policy</a></div>
-            <div class="b-tools__link"><a href="#">Traffic Light</a></div>
+            {% for link in pattern.links %}
+              <div class="b-tools__link"><a target="_blank" href="{{ site.baseurl | append: link.link }}">{{ link.title }}</a></div>
+            {% endfor %}
           </div>
 
           <div class="b-tools__pattern-button scale-on-hover">
@@ -80,131 +65,7 @@
       <div class="b-tools__shadow b-tools__mobile"></div>
     </div>
   </div>
-  <div class="b-tools__pattern">
-    <div class="b-tools__pattern-left">
-      <img src="{{ "/images/privacy-discover-learning-feature.svg" | prepend: site.baseurl }}">
-    </div>
-    <div class="b-tools__pattern-right">
-      <div class="b-tools__pattern-color b-tools__mobile turquoise"></div>
-      <div class="b-tools__title-container">
-        <div class="title">Discovering and learning about the study</div>
-        <div class="right b-tools__mobile">
-          <img target="#second-pattern" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-        </div>
-      </div>
-      <div class="b-tools__description-container hide" id="second-pattern">
-          <div class="description">The user has heard about the study from either recruitment materials or a healthcare provider. The user is looking for additional information on the purpose of the study, participant eligibility criteria and the requirements of study participation.</div>
-          
-          <div class="b-tools__links">
-            <div class="b-tools__link"><a href="#">Cookies</a></div>
-            <div class="b-tools__link"><a href="#">Consent</a></div>
-            <div class="b-tools__link"><a href="#">Study Details</a></div>
-            <div class="b-tools__link"><a href="#">Data Sharing Options</a></div>
-          </div>
-
-          <div class="b-tools__pattern-button scale-on-hover">
-            <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
-            <div>Add a pattern</div>
-          </div>
-      </div>
-      <div class="b-tools__shadow b-tools__mobile"></div>
-    </div>
-  </div>
-  <div class="b-tools__pattern">
-    <div class="b-tools__pattern-left">
-      <img src="{{ "/images/using-the-research-app-feature.svg" | prepend: site.baseurl }}">
-    </div>
-    <div class="b-tools__pattern-right">
-      <div class="b-tools__pattern-color b-tools__mobile lavendar"></div>
-      <div class="b-tools__title-container">
-        <div class="title">Using the research app</div>
-        <div class="right b-tools__mobile">
-          <img target="#third-pattern" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-        </div>
-      </div>
-      <div class="b-tools__description-container hide" id="third-pattern">
-          <div class="description">
-            The user is now an enrolled study participant by completing the informed consent and the app’s onboarding process. They are now ready to complete the study’s activities and contribute data.
-          </div>
-          
-          <div class="b-tools__links">
-            <div class="b-tools__link"><a target="_blank" href="{{ "/just-in-time-permission.html" | prepend: site.baseurl }}">Just-in Time Permission</a></div>
-            <div class="b-tools__link"><a href="#">Minimization of Data Collection</a></div>
-          </div>
-
-          <div class="b-tools__pattern-button scale-on-hover">
-            <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
-            <div>Add a pattern</div>
-          </div>
-        </div>
-        <div class="b-tools__shadow b-tools__mobile"></div>
-    </div>
-  </div>
-
-  <div class="b-tools__pattern">
-    <div class="b-tools__pattern-left">
-      <img src="{{ "/images/making-sense-of-contribution.svg" | prepend: site.baseurl }}">
-    </div>
-    <div class="b-tools__pattern-right">
-      <div class="b-tools__pattern-color b-tools__mobile powder"></div>
-      <div class="b-tools__title-container">
-        <div class="title">Making sense of one's contribution and return of data/results</div>
-        <div class="right b-tools__mobile">
-          <img target="#fourth-pattern"  class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-        </div>
-      </div>
-      <div class="b-tools__description-container hide" id="fourth-pattern">
-        <div class="description">
-          When a participant is making sense of how his/her data contributes to the research study. A participant now has the ability to see aggregated data in an understandable visual format so that they can better manage their condition.
-        </div>
-        
-        <div class="b-tools__links">
-          <div class="b-tools__link"><a href="#">Visual Toggle</a></div>
-          <div class="b-tools__link"><a href="#">Data Usage Log</a></div>
-          <div class="b-tools__link"><a href="#">Insights</a></div>
-          <div class="b-tools__link"><a href="#">Private Share Link</a></div>
-        </div>
-
-        <div class="b-tools__pattern-button scale-on-hover">
-          <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
-          <div>Add a pattern</div>
-        </div>
-      </div>
-      <div class="b-tools__shadow b-tools__mobile"></div>
-    </div>
-  </div>
-
-  <div class="b-tools__pattern">
-    <div class="b-tools__pattern-left">
-      <img src="{{ "/images/leaving-the-study.svg" | prepend: site.baseurl }}">
-    </div>
-    <div class="b-tools__pattern-right">
-      <div class="b-tools__pattern-color b-tools__mobile coral"></div>
-      <div class="b-tools__title-container">
-        <div class="title">Leaving the Study</div>
-        <div class="right b-tools__mobile">
-          <img target="#fifth-pattern" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-        </div>
-      </div>
-      <div class="b-tools__description-container hide" id="fifth-pattern">
-        <div class="description">
-          The participant has completed their contribution to the study. 
-        </div>
-        
-        <div class="b-tools__links">
-          <div class="b-tools__link"><a href="#">Inactivity Checking</a></div>
-          <div class="b-tools__link"><a href="#">Data Access Log</a></div>
-        </div>
-
-        <div class="b-tools__pattern-button scale-on-hover">
-          <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
-          <div>Add a pattern</div>
-        </div>
-      </div>
-      <div class="b-tools__shadow b-tools__mobile"></div>
-    </div>
-  </div>
-
+  {% endfor %}
 </div>
 
 <script type="text/javascript" src="{{ "/assets/js/vendor/owl.min.js" | prepend: site.baseurl }}"></script>
