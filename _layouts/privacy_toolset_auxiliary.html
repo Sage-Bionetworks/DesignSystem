@@ -16,7 +16,108 @@
 
               <main>
                 <div class="b-auxiliary__content">
-                  {{ content }}
+
+                  {% for block in page.responsive_blocks %}
+
+                    {% if block.type == 'diagram' %}
+                      
+                      <div class="c-auxiliary__message-block">
+                        <div class="c-auxiliary__message-block-title">
+                          <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
+                          <div class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
+                            <img target="#first-pattern-{{ forloop.index }}" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                          </div>
+                        </div>
+                        <div id="first-pattern-{{ forloop.index }}" class="c-auxiliary__message-block-description hide">
+                          {% for description_item in block.description_items %}
+                            <div class="c-auxiliary__message-block-description-item">
+                              {{ description_item }}
+                            </div>
+                          {% endfor %}
+                        <div class="c-auxiliary__image-block">
+                          <div style="background-color: #{{ block.image_color }}" class="c-auxiliary__image-block-title">{{ block.image_block.title }}</div>
+                          <img id="first-image-{{ forloop.index }}" style="background-color: #{{ block.image_color }}" src="{{ block.image_block.image | prepend: '/images/' | prepend: site.baseurl }}">
+                        </div>
+                          <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
+                            <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
+                            <div class="c-auxiliary__message-block-view-larger-right">
+                              <img target="#first-image-{{ forloop.index }}" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    {% elsif block.type == 'steps' %}
+                      <div class="c-auxiliary__message-block">
+                        <div class="c-auxiliary__message-block-title">
+                          <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
+                          <div target="#third-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
+                            <img target="#third-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                          </div>
+                        </div>
+                        <div id="third-pattern" class="c-auxiliary__message-block-description hide">
+                          <div class="c-auxiliary__message-block-description-item">
+                            {% for step in block.steps %}
+                              <div class="c-auxiliary__step">
+                                <div class="c-auxiliary__step-left">
+                                  {{ step.label }}
+                                </div>
+                                <div class="c-auxiliary__step-right">
+                                  <div class="c-auxiliary__step-title">{{ step.title }}</div>
+                                  <div class="c-auxiliary__step-description">{{ step.description }}</div>
+                                </div>
+                              </div>
+                            {% endfor %}
+                          </div>
+                        </div>
+                        <div id="c-auxiliary__fullscreen-img-container">
+                          <img id="c-auxiliary__fullscreen-img"/>
+                          <img id="c-auxiliary__fulscreen-img-close" src="{{ "/images/ic-close.svg" | prepend: site.baseurl }}">
+                        </div>
+                      </div>
+                    {% elsif block.type == 'resources' %}
+                      <div class="c-auxiliary__message-block">
+                        <div class="c-auxiliary__message-block-title">
+                          <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
+                          <div target="#sixth-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
+                            <img target="#sixth-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                          </div>
+                        </div>
+                        <div id="sixth-pattern" class="c-auxiliary__message-block-description hide">
+                          {% for resource_block in block.resource_blocks %}
+
+                            <div class="c-auxiliary__resources">
+                              <div class="c-auxiliary__resource-title">{{ resource_block.title }}</div>
+                              {% for resource in resource_block.resources %}
+
+                                <div class="c-auxiliary__resource {% cycle 'highlight', 'even' %}">
+                                  <div class="c-auxiliary__resource-container">
+                                    <div class="c-auxiliary__resource-left">
+                                      <div class="c-auxiliary__resources-image">
+                                        <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
+                                      </div>
+                                      <div class="c-auxiliary__resource-image-description">
+                                        <div class="c-auxiliary__resources-title">{{ resource.title }}</div>
+                                        {% if resource.subtitle %}
+
+                                        <div class="c-auxiliary__resources-subtitle">{{ resource.subtitle }}</div>
+
+                                        {% endif %}
+                                      </div>
+                                    </div>
+                                    <div class="c-auxiliary__resource-right">
+                                      <div class="c-auxiliary__resources-button">{{ resource.button_text }}</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              {% endfor %}
+                            </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    {% endif %}
+
+                  {% endfor %}
                 </div>
 
               </main>
@@ -24,5 +125,32 @@
         </div>
         {% include scripts.html %}
   </body>
+  <script>
+    $('.c-auxiliary__expand-arrow').click(event => {
+      console.log('click')
+      let clickedArrow = $(event.target)
+      if (clickedArrow.hasClass("flip")) {
+        clickedArrow.removeClass("flip");
+        $(clickedArrow.attr('target')).addClass("hide")
+        $(clickedArrow.attr('target')).removeClass("show")
+      } else {
+        clickedArrow.addClass("flip");
+        $(clickedArrow.attr('target')).addClass("show")
+        $(clickedArrow.attr('target')).removeClass("hide")
+      }
+    })
 
+    $('#c-auxiliary__fulscreen-img-close').click(event => {
+      $("#c-auxiliary__fullscreen-img-container").removeClass('show');
+    })
+
+    $('.c-auxiliary__view-fullscreen-img').click(event => {
+      let icon = $(event.target)
+      let imageSrc = $(icon.attr('target')).attr('src');
+      let fullscreenImage = $("#c-auxiliary__fullscreen-img");
+      let fullscreenImageContainer = $("#c-auxiliary__fullscreen-img-container");
+      fullscreenImage.attr('src', imageSrc);
+      fullscreenImageContainer.addClass("show");
+    })
+  </script>
 </html>

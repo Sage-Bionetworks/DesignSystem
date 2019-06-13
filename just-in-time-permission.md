@@ -1,251 +1,78 @@
 ---
 layout: privacy_toolset_auxiliary
-test:
-  - One
-    - It
-    - Works
-  - Two
-    - It
-    - Works
-
 title: Just-in-time permission
+
 description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! An easy solution to this problem is to surface the appropriate access permissions right before the user needs to complete a task requiring this type of data.
 
+responsive_blocks:
+  - type: diagram
+    image_color: FEF7F8
+    title: Worst Case Scenario
+
+    description_items:
+      - When a participant receives all of the permission requests all at once, it is natural for the participant to feel overwhelmed and suspicious of these such requests. Without the proper understanding of the reason why this data is being collected and its value to the biomedical researchers, a participant is more likely to deny the permissions during the onboarding process. If they decide to turn on the permissions at a later date, they will need to complete the cumbersome task of navigating to their phone’s system settings to update the app’s permissions.
+      - This extra mental burden could induce frustration, especially among less tech-savvy users, or even worse, abandonment among them to leave or delete the app, sadly even before their participation begins.
+    image_block:
+      title: "Worst Case Scenario: Participant Denies Permissions and Must Navigate System Settings"
+      image: worst-just-in-time-permission.png
+
+  - type: diagram
+    image_color: F7FDFA
+    title: Just-in-time permission lays the groundwork for engagement.
+
+    description_items:
+      - With just-in-time permission, a participant is provided with sufficient context to make an informed and conscious decision to allow or deny permission when the permission becomes required for an study-related task. The just-in-time permission lays the groundwork for a long-term engagement by fostering mutual understanding and trust between researchers and participants. 
+    image_block:
+      title: "Best Practice: Just-In-Time Permission"
+      image: best-just-in-time-permission.png
+
+  - type: steps
+    title: What to prepare?
+
+    steps:
+      - label: Step 1
+        title: Send just-in-time permission request only when a relevant tasks comes up.
+        description: Place the permission request only at the moment when a participant wants to complete a relevant task. [iOS] -> consider that this could take place during the (‘prepareForSegue’)
+
+      - label: Step 2
+        title: Explain just-in-context how the permission is required for the task.
+        description: Provide a walkthrough of what task the participant is required to accomplish, how the task connects to the scientific research, and why the permission must be turned on in order to gather the data.
+
+      - label: Step 3
+        title: Use texts and visuals to demonstrate a real example.
+        description: For example, show a visual of the finger-tapping exercise and explain the application must have the permission to use the motion sensor in order to track finger movements.
+
+  - type: resources
+    title: Resources
+    resource_blocks:
+      - title: Case Studies
+        resources:
+        - title: How to Ask for App Permissions
+          subtitle: Luke Wroblewski
+          button_text: Watch Video
+          link: #
+
+        - title: What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?
+          subtitle: Luke Wroblewski
+          button_text: Read Article
+          link: #
+
+        - title: Permission and Best Practices
+          subtitle: Sarah Gold
+          button_text: Read Article
+          link: #
+
+      - title: Resources
+        resources:
+        - title: Just-In-Time Permissions Patterns
+          button_text: Watch Video
+          link: #
+
+        - title: iOS GitHub Repo
+          button_text: Read Article
+          link: #
+
+        - title: Android GitHub Repo
+          button_text: Read Article
+          link: #
 ---
-
-
-<div class="c-auxiliary__message-block">
-  <div class="c-auxiliary__message-block-title">
-    <div class="c-auxiliary__message-block-title-text">Worst Case Scenario</div>
-    <div class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-      <img target="#first-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-    </div>
-  </div>
-  <div id="first-pattern" class="c-auxiliary__message-block-description hide">
-    <div class="c-auxiliary__message-block-description-item">
-      When a participant receives all of the permission requests all at once, it is natural for the participant to feel overwhelmed and suspicious of these such requests. Without the proper understanding of the reason why this data is being collected and its value to the biomedical researchers, a participant is more likely to deny the permissions during the onboarding process. If they decide to turn on the permissions at a later date, they will need to complete the cumbersome task of navigating to their phone’s system settings to update the app’s permissions. 
-    </div>
-    <div class="c-auxiliary__message-block-description-item">
-      This extra mental burden could induce frustration, especially among less tech-savvy users, or even worse, abandonment among them to leave or delete the app, sadly even before their participation begins.
-    </div>
-
-  <div class="c-auxiliary__image-block">
-    <div style="background-color: #FEF7F8" class="c-auxiliary__image-block-title">Worst Case Scenario: Participant Denies Permissions and Must Navigate System Settings</div>
-    <img id="first-image" style="background-color: #FEF7F8" src="{{ "/images/worst-just-in-time-permission.png" | prepend: site.baseurl }}">
-  </div>
-    <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
-      <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
-      <div class="c-auxiliary__message-block-view-larger-right">
-        <img target="#first-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="c-auxiliary__message-block">
-  <div class="c-auxiliary__message-block-title">
-    <div class="c-auxiliary__message-block-title-text">Just-in-time permission lays the groundwork for engagement.</div>
-    <div target="#second-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-      <img target="#second-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-    </div>
-  </div>
-  <div id="second-pattern" class="c-auxiliary__message-block-description hide">
-    <div class="c-auxiliary__message-block-description-item">
-      With just-in-time permission, a participant is provided with sufficient context to make an informed and conscious decision to allow or deny permission when the permission becomes required for an study-related task. The just-in-time permission lays the groundwork for a long-term engagement by fostering mutual understanding and trust between researchers and participants. 
-    </div>
-
-  <div class="c-auxiliary__image-block">
-    <div style="background-color: #F7FDFA" class="c-auxiliary__image-block-title">Best Practice: Just-In-Time Permission</div>
-    <img id="second-image" style="background-color: #F7FDFA" src="{{ "/images/best-just-in-time-permission.png" | prepend: site.baseurl }}">
-  </div>
-    <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
-      <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
-      <div class="c-auxiliary__message-block-view-larger-right">
-        <img target="#second-image" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="c-auxiliary__message-block">
-  <div class="c-auxiliary__message-block-title">
-    <div class="c-auxiliary__message-block-title-text">What to prepare?</div>
-    <div target="#third-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-      <img target="#third-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-    </div>
-  </div>
-  <div id="third-pattern" class="c-auxiliary__message-block-description hide">
-    <div class="c-auxiliary__message-block-description-item">
-      <div class="c-auxiliary__step">
-        <div class="c-auxiliary__step-left">
-          Step 1
-        </div>
-        <div class="c-auxiliary__step-right">
-          <div class="c-auxiliary__step-title">Send just-in-time permission request only when a relevant tasks comes up.</div>
-          <div class="c-auxiliary__step-description">Place the permission request only at the moment when a participant wants to complete a relevant task. [iOS] -> consider that this could take place during the (‘prepareForSegue’)</div>
-        </div>
-      </div>
-      <div class="c-auxiliary__step">
-        <div class="c-auxiliary__step-left">
-          Step 2
-        </div>
-        <div class="c-auxiliary__step-right">
-          <div class="c-auxiliary__step-title">Explain just-in-context how the permission is required for the task.</div>
-          <div class="c-auxiliary__step-description">Provide a walkthrough of what task the participant is required to accomplish, how the task connects to the scientific research, and why the permission must be turned on in order to gather the data.</div>
-        </div>
-      </div>
-      <div class="c-auxiliary__step">
-        <div class="c-auxiliary__step-left">
-          Step 3
-        </div>
-        <div class="c-auxiliary__step-right">
-          <div class="c-auxiliary__step-title">Use texts and visuals to demonstrate a real example. </div>
-          <div class="c-auxiliary__step-description">For example, show a visual of the finger-tapping exercise and explain the application must have the permission to use the motion sensor in order to track finger movements.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="c-auxiliary__fullscreen-img-container">
-    <img id="c-auxiliary__fullscreen-img"/>
-    <img id="c-auxiliary__fulscreen-img-close" src="{{ "/images/ic-close.svg" | prepend: site.baseurl }}">
-  </div>
-</div>
-
-<div class="c-auxiliary__message-block">
-  <div class="c-auxiliary__message-block-title">
-    <div class="c-auxiliary__message-block-title-text">Resources</div>
-    <div target="#sixth-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-      <img target="#sixth-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
-    </div>
-  </div>
-  <div id="sixth-pattern" class="c-auxiliary__message-block-description hide">
-    <div class="c-auxiliary__resources">
-      <div class="c-auxiliary__resource-title">Case Studies</div>
-      <div class="c-auxiliary__resource highlight">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title">How to Ask for App Permissions</div>
-              <div class="c-auxiliary__resources-subtitle">Luke Wroblewski</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Watch Video</div>
-          </div>
-        </div>
-      </div>
-      <div class="c-auxiliary__resource">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title">What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?</div>
-              <div class="c-auxiliary__resources-subtitle">Luke Wroblewski</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Read Article</div>
-          </div>
-        </div>
-      </div>
-      <div class="c-auxiliary__resource highlight">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title">Permission and Best Practices</div>
-              <div class="c-auxiliary__resources-subtitle">Sarah Gold</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Read Article</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="c-auxiliary__resources">
-      <div class="c-auxiliary__resource-title">Resources</div>
-      <div class="c-auxiliary__resource highlight">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title single-line">Just-In-Time Permissions Patterns</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Watch Video</div>
-          </div>
-        </div>
-      </div>
-      <div class="c-auxiliary__resource">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title single-line">iOS GitHub Repo</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Read Article</div>
-          </div>
-        </div>
-      </div>
-      <div class="c-auxiliary__resource highlight">
-        <div class="c-auxiliary__resource-container">
-          <div class="c-auxiliary__resource-left">
-            <div class="c-auxiliary__resources-image">
-              <img src="{{ "/images/ic-document.svg" | prepend: site.baseurl }}">
-            </div>
-            <div class="c-auxiliary__resource-image-description">
-              <div class="c-auxiliary__resources-title single-line">Android GitHub Repo</div>
-            </div>
-          </div>
-          <div class="c-auxiliary__resource-right">
-            <div class="c-auxiliary__resources-button">Read Article</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-  $('.c-auxiliary__expand-arrow').click(event => {
-    console.log('click')
-    let clickedArrow = $(event.target)
-    if (clickedArrow.hasClass("flip")) {
-      clickedArrow.removeClass("flip");
-      $(clickedArrow.attr('target')).addClass("hide")
-      $(clickedArrow.attr('target')).removeClass("show")
-    } else {
-      clickedArrow.addClass("flip");
-      $(clickedArrow.attr('target')).addClass("show")
-      $(clickedArrow.attr('target')).removeClass("hide")
-    }
-  })
-
-  $('#c-auxiliary__fulscreen-img-close').click(event => {
-    $("#c-auxiliary__fullscreen-img-container").removeClass('show');
-  })
-
-  $('.c-auxiliary__view-fullscreen-img').click(event => {
-    let icon = $(event.target)
-    let imageSrc = $(icon.attr('target')).attr('src');
-    let fullscreenImage = $("#c-auxiliary__fullscreen-img");
-    let fullscreenImageContainer = $("#c-auxiliary__fullscreen-img-container");
-    fullscreenImage.attr('src', imageSrc);
-    fullscreenImageContainer.addClass("show");
-  })
-</script>
