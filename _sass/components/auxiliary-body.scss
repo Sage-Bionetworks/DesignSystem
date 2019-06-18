@@ -1,3 +1,44 @@
+.b-basic-markup__content {
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  @media screen and (max-width: $bp-med-2) {
+    padding-left: 5%;
+    padding-right: 5%;  
+    padding-top: 0px;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    color: $color-blue;
+    margin-top: 40px;
+
+    @media screen and (max-width: $bp-med-2) {
+      margin-top: 30px;
+    }
+  }
+
+  p {
+    font-weight: 100;
+    color: $color-gray-16;
+    margin-top: 10px;
+  }
+
+  li {
+    margin-left: 4%;
+    font-weight: 100;
+    line-height: 30px;
+  }
+  
+  li:before {
+    content: "•\00a0\00a0";
+  }
+}
+
 .b-auxiliary__content {
 
   .b-tools__mobile {
