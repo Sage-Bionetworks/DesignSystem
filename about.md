@@ -18,11 +18,3 @@ We collaborate with scientists, product managers, engineers, and ethicists throu
 
 ## Our Governance Team
 The Governance Team explores the real-world implications of open-data sharing, developing policies and procedures for the responsible collection, use, and reuse of research assets. We have developed and tested models for patient-centered consent in app-mediated research studies, engagement and retention of research participants, and data access, protection, privacy, and interoperability.
-
-
-
-
-
-## Contributing info
-If it's desirable to have people from across the organization contribute to the design system, linking to the <a href="{{ "/contributing.html" | prepend: site.baseurl }}">contributing page</a> from the homepage could be a good idea.
-
