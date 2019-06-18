@@ -43,10 +43,10 @@
       <div class="b-tools__title-container">
         <div class="title">{{ pattern.title }}</div>
         <div class="right b-tools__mobile">
-          <img target="#first-pattern" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+          <img target="#first-pattern{{ forloop.index }}" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
         </div>
       </div>
-      <div class="b-tools__description-container extended hide" id="first-pattern">
+      <div class="b-tools__description-container extended hide" id="first-pattern{{ forloop.index }}">
           <div class="description">
             {{ pattern.description }} 
           </div>
