@@ -9,7 +9,7 @@
 title: Design System Template
 author: Lundegaard a.s.
 email: design-systems@lundegaard.eu
-baseurl: "/DesignSystem" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sage-bionetworks.github.io/" # the base hostname & protocol for your site
 
 # Build settings
