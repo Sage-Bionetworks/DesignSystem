@@ -36,7 +36,7 @@ patterns:
       - title: Cookies
         link: #
       - title: Consent
-        link: #
+        link: https://sagebionetworks.org/wp-content/uploads/2019/07/SageBio_EIC-Toolkit_V2_17July19_final.pdf
       - title: Study Details
         link: #
       - title: Data Sharing Options
