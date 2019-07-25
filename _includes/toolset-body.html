@@ -62,12 +62,9 @@
           </div>
 
           <div class="b-tools__links">
-            {% assign coming_soon_links = pattern.links | where: "link", nil %}
+            {% assign coming_soon_links = pattern.links | where: "link", nil | map: title%}
             {% unless coming_soon_links.size == 0 %}
-            Coming soon:
-              {% for link in coming_soon_links %}
-                {{ link.title }}
-              {% endfor %}
+              Coming soon: {{ coming_soon_links | join: ", " }}
             {% endunless %}
           </div>
 
