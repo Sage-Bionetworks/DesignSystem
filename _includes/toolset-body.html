@@ -53,9 +53,22 @@
           
           <div class="b-tools__links">
             {% for link in pattern.links %}
+              {% unless link.link == "#" %}
               <div class="b-tools__link"><a target="_blank" href="{{ site.baseurl | append: link.link }}">{{ link.title }}</a></div>
+              {% endunless %}
             {% endfor %}
           </div>
+
+          <div class="b-tools__links">
+            {% assign coming_soon_links = pattern.links | where: "link", "#" %}
+            {% unless coming_soon_links.size == 0 %}
+            Coming soon:
+              {% for link in coming_soon_links %}
+                link.title
+              {% endfor %}
+            {% endunless %}
+          </div>
+
 
           <div class="b-tools__pattern-button scale-on-hover">
             <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
