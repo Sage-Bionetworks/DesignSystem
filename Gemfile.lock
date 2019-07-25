@@ -10,8 +10,10 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     ffi (1.9.25)
+    ffi (1.9.25-x64-mingw32)
     forwardable-extended (2.6.0)
     htmlcompressor (0.4.0)
     http_parser.rb (0.6.0)
@@ -74,11 +76,17 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    tzinfo (2.0.0)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2019.2)
+      tzinfo (>= 1.0.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 3.8.1)
@@ -88,6 +96,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.2)
   minima (~> 2.0)
   tzinfo-data
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.3

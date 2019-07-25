@@ -50,23 +50,23 @@ responsive_blocks:
         - title: How to Ask for App Permissions
           subtitle: Luke Wroblewski
           button_text: Watch Video
-          link: #
+          link: https://www.lukew.com/ff/entry.asp?1928
 
         - title: What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?
           subtitle: Luke Wroblewski
           button_text: Read Article
-          link: #
+          link: https://www.lukew.com/ff/entry.asp?1995
 
         - title: Permission and Best Practices
           subtitle: Sarah Gold
           button_text: Read Article
-          link: #
+          link: https://www.projectsbyif.com/blog/making-digital-services-worth-trusting-permissions-and-best-practices/
 
       - title: Resources
         resources:
         - title: Just-In-Time Permissions Patterns
           button_text: Watch Video
-          link: #
+          link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
           button_text: Read Article
