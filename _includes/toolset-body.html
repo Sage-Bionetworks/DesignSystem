@@ -53,15 +53,14 @@
           
           <div class="b-tools__links">
             {% for link in pattern.links %}
-              A: {{link.link}},
-              {% unless link.link == "#" %}
+              {% unless link.link == blank %}
               <div class="b-tools__link"><a target="_blank" href="{{ site.baseurl | append: link.link }}">{{ link.title }}</a></div>
               {% endunless %}
             {% endfor %}
           </div>
 
           <div class="b-tools__links">
-            {% assign coming_soon_links = pattern.links | where: "link", "#" %}
+            {% assign coming_soon_links = pattern.links | where: "link", blank %}
             {% unless coming_soon_links.size == 0 %}
             Coming soon:
               {% for link in coming_soon_links %}
