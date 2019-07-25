@@ -53,6 +53,7 @@
           
           <div class="b-tools__links">
             {% for link in pattern.links %}
+              A: {{link.link}},
               {% unless link.link == "#" %}
               <div class="b-tools__link"><a target="_blank" href="{{ site.baseurl | append: link.link }}">{{ link.title }}</a></div>
               {% endunless %}
