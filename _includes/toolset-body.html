@@ -53,8 +53,6 @@
           
           <div class="b-tools__links">
             {% for link in pattern.links %}
-              A: "{{ link.link }}"
-            B: {{ link }}
               {% unless link.link == nil %}
               <div class="b-tools__link"><a target="_blank" href="{{ site.baseurl | append: link.link }}">{{ link.title }}</a></div>
               {% endunless %}
@@ -62,9 +60,15 @@
           </div>
 
           <div class="b-tools__links">
-            {% assign coming_soon_links = pattern.links | where: "link", nil | map: title%}
-            {% unless coming_soon_links.size == 0 %}
-              Coming soon: {{ coming_soon_links | join: ", " }}
+            {% assign coming_soon_links = pattern.links | where: "link", nil %}
+            {{ coming_soon_links }}
+
+            {% assign coming_soon_titles = coming_soon_links | map: title %}
+
+            {{ coming_soon_titles }}
+
+            {% unless coming_soon_titles.size == 0 %}
+              Coming soon: {{ coming_soon_titles | join: ", " }}
             {% endunless %}
           </div>
 
