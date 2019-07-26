@@ -1,8 +1,8 @@
 - title: Introduction
-  url: /
+  url: 
 
 - title: Getting started
-  url: /getting-started.html
+  url: getting-started.html
 
 - title: Guidelines
   group: guidelines
@@ -20,22 +20,22 @@
   group: page-templates
 
 - title: Downloads
-  url: /downloads.html
+  url: downloads.html
 
 - title: Support
-  url: /support.html
+  url: support.html
 
 - title: Release history
-  url: /release-history/
+  url: release-history/
 
 - title: Contribute
-  url: /contribute.html
+  url: contribute.html
   
 - title: Patterns
-  url: /patterns.html
+  url: patterns.html
 
 - title: Privacy Toolset
-  url: /privacy_toolset.html
+  url: privacy_toolset.html
 
 - title: Just-in-time Permission
-  url: /just-in-time-permission.html
+  url: just-in-time-permission.html
