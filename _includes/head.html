@@ -8,14 +8,14 @@
 		<meta name="description" content="{{ page.description | strip_html | strip_newlines | truncate: 160 }}">
 	{% endif %}
 
-	<link rel="stylesheet" href="{{ "/assets/css/style-guide.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
-	<link rel="stylesheet" href="{{ "/assets/css/print.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" media="print">
-	<link rel="stylesheet" href="{{ "/assets/css/flickity.min.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" media="print">
-	<link rel="icon" href="{{ "/assets/favicon.ico" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/assets/css/style-guide.css" | relative_url }}?{{site.time | date: '%s%N'}}">
+	<link rel="stylesheet" href="{{ "/assets/css/print.css" | relative_url }}?{{site.time | date: '%s%N'}}" media="print">
+	<link rel="stylesheet" href="{{ "/assets/css/flickity.min.css" | relative_url }}?{{site.time | date: '%s%N'}}" media="print">
+	<link rel="icon" href="{{ "/assets/favicon.ico" | relative_url }}">
 
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url | prepend: site.url }}">
 
-	<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+	<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | relative_url }}" />
 
 	{% if site.author %}
 		<meta name="author" content="{{ site.author }}">
@@ -31,6 +31,6 @@
 	<!-- End Google Tag Manager -->
 	{% endif %}
 
-	<script type="text/javascript" src="{{ "/assets/js/vendor/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
-	<script type="text/javascript" src="{{ "/assets/js/vendor/flickity.min.js" | prepend: site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "/assets/js/vendor/jquery-3.1.0.min.js" | relative_url }}"></script>
+	<script type="text/javascript" src="{{ "/assets/js/vendor/flickity.min.js" | relative_url }}"></script>
 </head>

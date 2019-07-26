@@ -5,11 +5,11 @@
     
             {% if include.group %}
             <svg class="c-icon c-primary-nav__icon" aria-hidden="true">
-                <use xlink:href="{{ "/assets/icons/icons.svg#chevron-right" | prepend: site.baseurl }}"></use>
+                <use xlink:href="{{ "/assets/icons/icons.svg#chevron-right" | prepend: relative_url }}"></use>
             </svg>
             {% endif %}
         </a>
-    
+
         {% if include.group %}
             <ul class="c-primary-nav__sublist js-nav-dropdown {% if page.group == include.group %} is-active{% endif %}">
     
