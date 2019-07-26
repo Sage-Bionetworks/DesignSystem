@@ -74,5 +74,5 @@ responsive_blocks:
 
         - title: Android GitHub Repo
           button_text: Read Article
-          link: #
+          link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
