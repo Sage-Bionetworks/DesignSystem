@@ -5,7 +5,7 @@
 <div class="b-tools__features b-tools__desktop">
   {% for feature in page.features %}
     <div class="b-tools__feature">
-      <img src="{{ feature.image | prepend: '/images/' | prepend: site.baseurl }}">
+      <img src="{{ feature.image | prepend: '/images/' | relative_url }}">
       <div class="b-tools__feature-title">{{ feature.title }}</div>
       <div class="b-tools__feature-description">{{ feature.description }}</div>
     </div>
@@ -15,7 +15,7 @@
 <div class="swiper-container b-tools__features b-tools__mobile" id="swiper">
   {% for feature in page.features %}
     <div class="b-tools__feature">
-      <img src="{{ feature.image | prepend: '/images/' | prepend: site.baseurl }}">
+      <img src="{{ feature.image | prepend: '/images/' | relative_url }}">
       <div class="b-tools__feature-title">{{ feature.title }}</div>
       <div class="b-tools__feature-description">{{ feature.description }}</div>
     </div>
@@ -29,21 +29,21 @@
 </div>
 <div class="b-tools__subheading">{{ page.pattern_subtitle }}</div>
 <div class="b-tools__journey">
-  <img src="{{ "/images/privacy-toolset-journey.svg" | prepend: site.baseurl }}">
+  <img src="{{ "/images/privacy-toolset-journey.svg" | relative_url }}">
 </div>
 
 <div class="b-tools__patterns">
   {% for pattern in page.patterns %}
   <div class="b-tools__pattern">
     <div class="b-tools__pattern-left">
-      <img src="{{ pattern.image | prepend: '/images/' | prepend: site.baseurl }}">
+      <img src="{{ pattern.image | prepend: '/images/' | relative_url }}">
     </div>
     <div class="b-tools__pattern-right">
       <div class="b-tools__pattern-color b-tools__mobile" style="background: #{{ pattern.header_color }}"></div>
       <div class="b-tools__title-container">
         <div class="title">{{ pattern.title }}</div>
         <div class="right b-tools__mobile">
-          <img target="#first-pattern{{ forloop.index }}" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+          <img target="#first-pattern{{ forloop.index }}" class="b-tools__expand-pattern" src="{{ "/images/ic_expand_arrow.svg" | relative_url }}">
         </div>
       </div>
       <div class="b-tools__description-container extended hide" id="first-pattern{{ forloop.index }}">
@@ -69,7 +69,7 @@
 
 
           <div class="b-tools__pattern-button scale-on-hover">
-            <img src="{{ "/images/ic-add.svg" | prepend: site.baseurl }}">
+            <img src="{{ "/images/ic-add.svg" | relative_url }}">
             <div>Add a pattern</div>
           </div>
         </div>
@@ -79,7 +79,7 @@
   {% endfor %}
 </div>
 
-<script type="text/javascript" src="{{ "/assets/js/vendor/owl.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/vendor/owl.min.js" | relative_url }}"></script>
 <script>
 $(document).ready(function(){
   var flky = new Flickity( '.swiper-container', {
