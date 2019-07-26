@@ -69,10 +69,10 @@ responsive_blocks:
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
-          button_text: Read Article
+          button_text: View on GitHub
           link: #
 
         - title: Android GitHub Repo
-          button_text: Read Article
+          button_text: View on GitHub
           link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
