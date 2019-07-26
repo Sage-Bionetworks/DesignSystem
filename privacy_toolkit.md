@@ -1,4 +1,5 @@
 ---
+redirect_from: "/privacy_toolset.html"
 layout: toolkit
 title: What is a Privacy Toolkit?
 features:
