@@ -1,5 +1,5 @@
 ---
-layout: privacy_toolset_auxiliary
+layout: privacy_toolkit_auxiliary
 title: Just-in-time permission
 
 description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! An easy solution to this problem is to surface the appropriate access permissions right before the user needs to complete a task requiring this type of data.
