@@ -1,0 +1,41 @@
+<li class="c-primary-nav__item {% if page.group == include.group %}is-active{% endif %}">
+
+        <a class="c-primary-nav__link {% if include.group %}c-primary-nav__link--has-children js-nav-dropdown-trigger{% endif %} {% if include.url == page.url %}is-active is-current{% endif %} {% if include.group and page.group == include.group %}is-active{% endif %} {% if page.url contains include.url %}is-active{% endif %}" href="{% if include.group %}#{% else %}{{ include.url | relative_url}}{% endif %}">
+            <span class="c-primary-nav__text">{{ include.title }}</span>
+    
+            {% if include.group %}
+            <svg class="c-icon c-primary-nav__icon" aria-hidden="true">
+<<<<<<< HEAD
+                <use xlink:href="{{ "/assets/icons/icons.svg#chevron-right" | relative_url }}"></use>
+=======
+                <use xlink:href="{{ "/assets/icons/icons.svg#chevron-right" | prepend: relative_url }}"></use>
+>>>>>>> d9fe087... Fix relative_url
+            </svg>
+            {% endif %}
+        </a>
+
+        {% if include.group %}
+            <ul class="c-primary-nav__sublist js-nav-dropdown {% if page.group == include.group %} is-active{% endif %}">
+    
+                {% comment %} Filter only group pages, group them by order (if not set order is 999999) and then order by group number (name) {% endcomment %}
+                {% assign sorted_groups = site.pages | where: "group", include.group | group_by_exp: "item", "item.order | default: 999999" | sort: "name" %}
+    
+                {% for group in sorted_groups %}
+                
+                    {% comment %} In group sort items by title {% endcomment %}
+                    {% assign sorted_pages = group.items | sort: 'title'  %}
+    
+                    {% for my_subpage in sorted_pages %}
+                        {% if my_subpage.group == include.group %}
+                            <li class="c-primary-nav__item {% if page.group == include.group %}is-active{% endif %}">
+                                <a class="c-primary-nav__link {% if my_subpage.url == page.url %}is-active is-current{% endif %}" href="{{ my_subpage.url | relative_url }}">
+                                    <span class="c-primary-nav__text">{{ my_subpage.title }}</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+    

@@ -1,0 +1,49 @@
+<div class="c-tools__header">
+  <img class="c-tools__header-img" src="{{ "/images/tools-header.png" | relative_url }}">
+  <div class="c-tools__top-bar">
+    <div class="c-tools__icon">
+<<<<<<< HEAD
+      <img src="{{ "/images/privacy-toolkit-icon.svg" | relative_url }}">
+=======
+      <img src="{{ "/images/privacy-toolset-icon.svg" | relative_url }}">
+>>>>>>> d9fe087... Fix relative_url
+    </div>
+    <div class="c-tools__right ">
+      <div class="c-tools__item"><a href="./about.html">About</a></div>
+      <div class="c-tools__item"><a href="#contributing">Contribute</a></div>
+      <div class="c-tools__item c-tools__menu mobile">
+        <div class="c-tools__item-name">MENU</div>
+        <div class="c-tools__mobile-menu hide">
+          <div class="c-tools__mobile-menu-container">
+            <div class="c-tools__mobile-item"><a class="highlighted" href="#">Home</a></div>
+            <div class="c-tools__mobile-item"><a href="./about.html">About</a></div>
+            <div class="c-tools__mobile-item"><a href="#contributing">Contribute</a></div>
+            <div class="c-tools__mobile-sub-item"><a href="#b-tools__footer-link">I'm a Designer</a></div>
+            <div class="c-tools__mobile-sub-item"><a href="#b-tools__footer-link">I'm a Researcher</a></div>
+            <div class="c-tools__mobile-sub-item"><a href="#b-tools__footer-link">I'm a Developer</a></div>
+          </div>
+          <div class="c-tools__close-icon"><img src="{{ "/images/ic-close.svg" | relative_url }}"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-tools__headline">A toolkit for biomedical researchers of best practices for privacy in digital studies.</div>
+
+    <div class="c-tools_header-buttons">
+      <button class="scale-on-hover"><a href="https://www.figma.com/file/bst0iSR7WeIk32cFLcAgxnLq/Privacy-Toolkit---Private?node-id=0%3A1">Privacy UI Patterns</a></button>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $('.c-tools__menu').click(event => {
+    let clickedArrow = $(".c-tools__mobile-menu");
+    if (clickedArrow.hasClass("show")) {
+      clickedArrow.addClass("hide");
+      clickedArrow.removeClass("show");
+    } else {
+      clickedArrow.addClass("show");
+      clickedArrow.removeClass("hide");
+    }
+  })
+</script>
