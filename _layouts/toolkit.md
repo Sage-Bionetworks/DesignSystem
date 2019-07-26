@@ -1,5 +1,5 @@
 ---
-layout: privacy_toolset_default
+layout: privacy_toolkit_default
 ---
 
 <section class="c-section">

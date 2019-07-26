@@ -1,6 +1,6 @@
 ---
-layout: toolset
-title: What is a Privacy Toolset?
+layout: toolkit
+title: What is a Privacy Toolkit?
 features:
   - title: Respectful & Trustworthy
     image: respectful-trustworthy.svg
@@ -13,7 +13,7 @@ features:
   - title: Participant Centered
     image: participant-centered.svg
     description: Participants have a better understanding of how their data is contributing to research but also retain their ability to control their data.
-pattern_title: Using the Privacy Toolset for your Digital Study
+pattern_title: Using the Privacy Toolkit for your Digital Study
 pattern_subtitle: Connecting with your users through multiple touchpoints throughout all of the stages of your study.
 patterns:
   - title: Getting Started
