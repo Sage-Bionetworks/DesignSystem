@@ -8,4 +8,6 @@ description: Capturing the personality and authority of the brand in words
 
 ---
 
+Vanessa's voice is inspiring.
+
 For inspiration, check out MailChimp's fantastic [Voice and Tone](http://voiceandtone.com/) website.
