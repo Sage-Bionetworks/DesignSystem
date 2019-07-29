@@ -49,7 +49,7 @@ Accent Colors can be any number from 100-500 of your selected color family (any 
 
 
 
-![Image of color palette](../images/colors/color-palette.png)
+![Image of color palette](../images/colors/color-palette.svg)
 <br>
 <br>
 ![Image of color usage example 1](../images/colors/color-usage-example-1.png)
