@@ -67,7 +67,7 @@ Our Color System was created to ensure that accessibility standards are met and 
 
 ## Neutral & Text Colors
 
-![Image of neutral and text colors](../images/colors/neutral-and-text-colors.png)
+![Image of neutral and text colors](../images/colors/neutral-and-text-colors.svg)
 
 
 
@@ -78,7 +78,7 @@ When creating success items such as Completion Screens, Complete copy, etc. you 
 
 If your template is a Success screen, you will use Success 300 as the background. You can find more information about these templates here.
 
-![Image of success color usage example](../images/colors/success-color-usage-example.png)
+![Image of success color usage example](../images/colors/success-color-usage-example.svg)
 <br>
 <br>
 
@@ -89,6 +89,6 @@ When creating error items such as Warning Screens, Failure Screens, Incomplete c
 
 If your template is a Fail/Error/Warning screen, you will use Error 300 as the background. You can find more information about these templates here.
 
-![Image of error color usage example](../images/colors/error-color-usage-example.png)
+![Image of error color usage example](../images/colors/error-color-usage-example.svg)
 <br>
 <br>
