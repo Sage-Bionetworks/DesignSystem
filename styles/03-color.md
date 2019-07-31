@@ -49,6 +49,9 @@ Accent Colors can be any number from 100-500 of your selected color family (any 
 
 
 
+## Color Palette
+
+
 ![Image of color palette](../images/colors/color-palette.svg)
 <br>
 <br>
