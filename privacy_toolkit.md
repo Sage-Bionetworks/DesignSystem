@@ -28,6 +28,8 @@ patterns:
         link: #
       - title: Traffic Light
         link: #
+    add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
+
 
   - title: Discovering and learning about the study
     header_color: 3DD6C8
@@ -42,6 +44,8 @@ patterns:
         link: #
       - title: Data Sharing Options
         link: #
+    add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
+
 
   - title: Using the research app
     header_color: 7692D9
@@ -52,6 +56,7 @@ patterns:
         link: /just-in-time-permission.html
       - title: Minimization of Data Collection
         link: #
+    add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
 
   - title: Making sense of one's contribution and return of data/results
     header_color: 7EC8CC
@@ -66,7 +71,8 @@ patterns:
         link: #
       - title: Private Share Link
         link: #
-
+    add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
+    
   - title: Leaving the study
     header_color: F47E6C
     image: leaving-the-study.svg
@@ -76,6 +82,8 @@ patterns:
         link: #
       - title: Data Access
         link: #
+    add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
+            
 ---
 
 The content goes here....
