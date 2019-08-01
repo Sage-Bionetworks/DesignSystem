@@ -49,13 +49,14 @@ Accent Colors can be any number from 100-500 of your selected color family (any 
 
 
 
-![Image of color palette](../images/colors/color-palette.png)
+## Color Palette
+
+
+![Image of color palette](../images/colors/color-palette.svg)
 <br>
 <br>
-![Image of color usage example 1](../images/colors/color-usage-example-1.png)
-&nbsp;
-&nbsp;
-![Image of color usage example 2](../images/colors/color-usage-example-2.png)
+![Image of color usage example 1](../images/colors/color-usage-example-1.svg)
+![Image of color usage example 2](../images/colors/color-usage-example-2.svg)
 <br>
 <br>
 
@@ -69,7 +70,7 @@ Our Color System was created to ensure that accessibility standards are met and 
 
 ## Neutral & Text Colors
 
-![Image of neutral and text colors](../images/colors/neutral-and-text-colors.png)
+![Image of neutral and text colors](../images/colors/neutral-and-text-colors.svg)
 
 
 
@@ -80,7 +81,7 @@ When creating success items such as Completion Screens, Complete copy, etc. you 
 
 If your template is a Success screen, you will use Success 300 as the background. You can find more information about these templates here.
 
-![Image of success color usage example](../images/colors/success-color-usage-example.png)
+![Image of success color usage example](../images/colors/success-color-usage-example.svg)
 <br>
 <br>
 
@@ -91,6 +92,6 @@ When creating error items such as Warning Screens, Failure Screens, Incomplete c
 
 If your template is a Fail/Error/Warning screen, you will use Error 300 as the background. You can find more information about these templates here.
 
-![Image of error color usage example](../images/colors/error-color-usage-example.png)
+![Image of error color usage example](../images/colors/error-color-usage-example.svg)
 <br>
 <br>
