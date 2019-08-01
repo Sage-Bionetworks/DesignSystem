@@ -1,5 +1,5 @@
 ---
-layout: privacy_toolset_auxiliary
+layout: privacy_toolkit_auxiliary
 title: Just-in-time permission
 
 description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! An easy solution to this problem is to surface the appropriate access permissions right before the user needs to complete a task requiring this type of data.
@@ -69,10 +69,10 @@ responsive_blocks:
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
-          button_text: Read Article
+          button_text: View on GitHub
           link: #
 
         - title: Android GitHub Repo
-          button_text: Read Article
-          link: #
+          button_text: View on GitHub
+          link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
