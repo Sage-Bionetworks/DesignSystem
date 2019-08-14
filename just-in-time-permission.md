@@ -65,7 +65,7 @@ responsive_blocks:
       - title: Resources
         resources:
         - title: Just-In-Time Permissions Patterns
-          button_text: Watch Video
+          button_text: View in Figma
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
