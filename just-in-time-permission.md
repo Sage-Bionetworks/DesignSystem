@@ -2,16 +2,16 @@
 layout: privacy_toolkit_auxiliary
 title: Just-in-time permission
 
-description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! An easy solution to this problem is to surface the appropriate access permissions right before the user needs to complete a task requiring this type of data.
+description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! Request permissions right before the user needs to complete a task that requires this type of data. This approach is called a just-in-time permission.
 
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
-    title: Worst Case Scenario
+    title: Asking for all permissions upfront can cause distrust.
 
     description_items:
-      - When a participant receives all of the permission requests all at once, it is natural for the participant to feel overwhelmed and suspicious of these such requests. Without the proper understanding of the reason why this data is being collected and its value to the biomedical researchers, a participant is more likely to deny the permissions during the onboarding process. If they decide to turn on the permissions at a later date, they will need to complete the cumbersome task of navigating to their phone’s system settings to update the app’s permissions.
-      - This extra mental burden could induce frustration, especially among less tech-savvy users, or even worse, abandonment among them to leave or delete the app, sadly even before their participation begins.
+      - When a participant receives all permission requests at once, they might feel overwhelmed and suspicious of these requests. Without an understanding of why permissions are required to collect the data, and why this data is valuable to researchers, the participant could deny permissions during the onboarding process. If they decide to grant permissions later, they will  have to navigate their phone’s system settings and update the app’s permissions. 
+      - This extra burden could create frustration, especially among less tech-savvy users. Even worse, it could cause them to leave or delete the app before their participation has even begun.
     image_block:
       title: "Worst Case Scenario: Participant Denies Permissions and Must Navigate System Settings"
       image: worst-just-in-time-permission.png
@@ -21,7 +21,7 @@ responsive_blocks:
     title: Just-in-time permission lays the groundwork for engagement.
 
     description_items:
-      - With just-in-time permission, a participant is provided with sufficient context to make an informed and conscious decision to allow or deny permission when the permission becomes required for an study-related task. The just-in-time permission lays the groundwork for a long-term engagement by fostering mutual understanding and trust between researchers and participants. 
+      - With just-in-time permission, the participant is provided the context to make an informed decision to allow or deny permissions that collect data for study-related tasks. Just-in-time permission also lays the groundwork for long-term engagement, by fostering mutual understanding and trust between researchers and participants.  
     image_block:
       title: "Best Practice: Just-In-Time Permission"
       image: best-just-in-time-permission.png
@@ -32,7 +32,7 @@ responsive_blocks:
     steps:
       - label: Step 1
         title: Send just-in-time permission request only when a relevant tasks comes up.
-        description: Place the permission request only at the moment when a participant wants to complete a relevant task. [iOS] -> consider that this could take place during the (‘prepareForSegue’)
+        description: Place the permission request only at the moment when a participant wants to complete a relevant task. For iOS, this could take place during the (’PrepareForSegue’).
 
       - label: Step 2
         title: Explain just-in-context how the permission is required for the task.
