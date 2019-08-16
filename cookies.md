@@ -14,7 +14,7 @@ responsive_blocks:
       - Targeted advertisements could make participants feel embarassed, worried, and distrustful about who has access to their information. These negative feelings could cause a participant to stop contributing data and to withdraw from the study.
     image_block:
       title: "Worst Case Scenario: Participant Has No Choice But to Accept All Cookies"
-      image: worst-just-in-time-permission.png
+      image: worst-cookie-customization.png
 
   - type: diagram
     image_color: F7FDFA
@@ -25,7 +25,7 @@ responsive_blocks:
       - Consider educating your participants on how to turn off 3rd-party cookies to stop organizations from creating targeted ads based on their personal health information. Doing so can help set reasonable expectations about privacy, build trust, and increase the participant’s commitment to the study. 
     image_block:
       title: "Best Practice: Cookie Customization"
-      image: best-just-in-time-permission.png
+      image: best-cookie-customization.png
 
   - type: steps
     title: What to prepare?
