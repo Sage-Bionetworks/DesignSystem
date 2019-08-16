@@ -12,7 +12,7 @@
   <script src="https://unpkg.com/ionicons@4.2.0/dist/ionicons.js"></script>
 
   <!-- DS template -->
-  <link rel="stylesheet" href="{{ "/assets/css/icon-preview.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/icon-preview.css" | relative_url }}">
 
   <title>Hello, world!</title>
 </head>
@@ -29,7 +29,7 @@
 
 
   <!-- Necessary for resizing patterns iframe, if pattern has big height -->
-  <script src="{{ "/assets/js/vendor/iframeResizer.contentWindow.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/vendor/iframeResizer.contentWindow.min.js" | relative_url }}"></script>
 
 </body>
 </html>

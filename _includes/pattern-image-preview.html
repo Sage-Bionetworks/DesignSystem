@@ -2,11 +2,11 @@
 {% assign pattern = site.patterns | where:"path", include.pattern_path | first %}
 
 <div class="preview" style="position: relative;">
-    <img src="{{ include.image_path | prepend: site.baseurl }}" style="margin-left: auto; margin-right: auto; display: block;">
+    <img src="{{ include.image_path | relative_url }}" style="margin-left: auto; margin-right: auto; display: block;">
 
     <div class="preview-links">
         {% if pattern %}
-            <a class="preview-links-btn" href="{{ pattern.url | prepend: site.baseurl }}" target="_blank">{{ site.data.locale['live_preview'] | default:'Live preview'}}</a>
+            <a class="preview-links-btn" href="{{ pattern.url | relative_url }}" target="_blank">{{ site.data.locale['live_preview'] | default:'Live preview'}}</a>
         {% endif %}
 
         {% if include.storybook_url %}

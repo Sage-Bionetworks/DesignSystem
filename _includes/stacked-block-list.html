@@ -4,11 +4,11 @@
 	<li class="c-stacked-block-list__item l-grid__item"><div class="c-stacked-block ">
 		<div class="c-stacked-block">
 			<div class="c-stacked-block__header">
-				<a class="c-stacked-block__link" href="{{ app.url | prepend: site.baseurl }}">
+				<a class="c-stacked-block__link" href="{{ app.url | relative_url }}">
 					<img src="{{ app.img }}" alt="{{ app.title }}" />
 				</a>
 
-				<a href="{{ app.url | prepend: site.baseurl }}" class="c-stacked-block__title">{{ app.title }}</a>
+				<a href="{{ app.url | relative_url }}" class="c-stacked-block__title">{{ app.title }}</a>
 			</div><!-- end c-stacked-block__header -->
 		</div><!-- end c-stacked-block -->
 	</li>

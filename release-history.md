@@ -9,7 +9,7 @@ description: Jekyll's built-in [blogging feature](http://import.jekyllrb.com/) c
 
     {% for post in site.posts %}
 		<div class="c-block">
-			<h2 class="c-block__heading"><a href="{{ post.url | prepend: site.baseurl }}" class="c-block__link">{{ post.title }}</a></h2>
+			<h2 class="c-block__heading"><a href="{{ post.url | relative_url }}" class="c-block__link">{{ post.title }}</a></h2>
 			<div class="c-block__desc">
 				{{ post.content }}
 			</div><!--end c-block__desc-->

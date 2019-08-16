@@ -25,7 +25,7 @@
                         <div class="c-auxiliary__message-block-title">
                           <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
                           <div class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-                            <img target="#first-pattern-{{ forloop.index }}" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                            <img target="#first-pattern-{{ forloop.index }}" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | relative_url }}">
                           </div>
                         </div>
                         <div id="first-pattern-{{ forloop.index }}" class="c-auxiliary__message-block-description hide">
@@ -36,12 +36,12 @@
                           {% endfor %}
                         <div class="c-auxiliary__image-block">
                           <div style="background-color: #{{ block.image_color }}" class="c-auxiliary__image-block-title">{{ block.image_block.title }}</div>
-                          <img id="first-image-{{ forloop.index }}" style="background-color: #{{ block.image_color }}" src="{{ block.image_block.image | prepend: '/images/' | prepend: site.baseurl }}">
+                          <img id="first-image-{{ forloop.index }}" style="background-color: #{{ block.image_color }}" src="{{ block.image_block.image | prepend: '/images/' | relative_url }}">
                         </div>
                           <div class="c-auxiliary__message-block-view-larger b-tools__mobile">
                             <div class="c-auxiliary__message-block-view-larger-left">View larger</div>
                             <div class="c-auxiliary__message-block-view-larger-right">
-                              <img target="#first-image-{{ forloop.index }}" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | prepend: site.baseurl }}">
+                              <img target="#first-image-{{ forloop.index }}" class="c-auxiliary__view-fullscreen-img" src="{{ "/images/ic-expand-image.png" | relative_url }}">
                             </div>
                           </div>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="c-auxiliary__message-block-title">
                           <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
                           <div target="#third-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-                            <img target="#third-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                            <img target="#third-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | relative_url }}">
                           </div>
                         </div>
                         <div id="third-pattern" class="c-auxiliary__message-block-description hide">
@@ -72,7 +72,7 @@
                         </div>
                         <div id="c-auxiliary__fullscreen-img-container">
                           <img id="c-auxiliary__fullscreen-img"/>
-                          <img id="c-auxiliary__fulscreen-img-close" src="{{ "/images/ic-close.svg" | prepend: site.baseurl }}">
+                          <img id="c-auxiliary__fulscreen-img-close" src="{{ "/images/ic-close.svg" | relative_url }}">
                         </div>
                       </div>
                     {% elsif block.type == 'resources' %}
@@ -80,7 +80,7 @@
                         <div class="c-auxiliary__message-block-title">
                           <div class="c-auxiliary__message-block-title-text">{{ block.title }}</div>
                           <div target="#sixth-pattern" class="c-auxiliary__mesage-block-title-arrow b-tools__mobile">
-                            <img target="#sixth-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | prepend: site.baseurl }}">
+                            <img target="#sixth-pattern" class="c-auxiliary__expand-arrow" src="{{ "/images/ic_expand_arrow.svg" | relative_url }}">
                           </div>
                         </div>
                         <div id="sixth-pattern" class="c-auxiliary__message-block-description hide">
@@ -94,7 +94,7 @@
                                   <div class="c-auxiliary__resource-container">
                                     <div class="c-auxiliary__resource-left">
                                       <div class="c-auxiliary__resources-image">
-                                        <img src="{{ "/images/ic-play.svg" | prepend: site.baseurl }}">
+                                        <img src="{{ "/images/ic-play.svg" | relative_url }}">
                                       </div>
                                       <div class="c-auxiliary__resource-image-description">
                                         <div class="c-auxiliary__resources-title">{{ resource.title }}</div>
