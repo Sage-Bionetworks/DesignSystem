@@ -37,7 +37,7 @@ patterns:
     description: The user has heard about the study from either recruitment materials or a healthcare provider. The user is looking for additional information on the purpose of the study, participant eligibility criteria and the requirements of study participation.
     links:
       - title: Cookies
-        link: #
+        link: /cookies.html
       - title: Consent
         link: https://sagebionetworks.org/wp-content/uploads/2019/07/SageBio_EIC-Toolkit_V2_17July19_final.pdf
       - title: Study Details
