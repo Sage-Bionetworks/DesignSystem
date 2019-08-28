@@ -15,18 +15,16 @@ features:
     image: participant-centered.svg
     description: Participants have a better understanding of how their data is contributing to research but also retain their ability to control their data.
 pattern_title: Using the Privacy Toolkit for your Digital Study
-pattern_subtitle: Connecting with your users through multiple touchpoints throughout all of the stages of your study.
+pattern_subtitle: Explore some of the respectful ways to approach privacy and data collection in all the participants’ touchpoints in your digital research study. 
 patterns:
   - title: Getting Started
     header_color: E566A1
     image: privacy-heart-capture-feature.svg
-    description: Explore some of the respectful ways to approach privacy and data collection in all the participants’ touchpoints in your digital research study. Here are some best practices on how to deal with the notorious cookie prompts, intrusive permission requests, off-putting push notifications, and offboarding experience.
+    description: Here are some best practices on how to deal with the cookie prompts and best practices to consider when drafting your Privacy Policy. These patterns set the tone with the user from the start that privacy is important. 
     links:
-      - title: Permission
-        link: #
+      - title: Cookies
+        link: /cookies.html
       - title: Privacy Policy
-        link: #
-      - title: Traffic Light
         link: #
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
 
@@ -36,8 +34,7 @@ patterns:
     image: privacy-discover-learning-feature.svg
     description: The user has heard about the study from either recruitment materials or a healthcare provider. The user is looking for additional information on the purpose of the study, participant eligibility criteria and the requirements of study participation.
     links:
-      - title: Cookies
-        link: /cookies.html
+    
       - title: Consent
         link: https://sagebionetworks.org/wp-content/uploads/2019/07/SageBio_EIC-Toolkit_V2_17July19_final.pdf
       - title: Study Details
@@ -53,9 +50,7 @@ patterns:
     description: The user is now an enrolled study participant by completing the informed consent and the app’s onboarding process. They are now ready to complete the study’s activities and contribute data.
     links:
       - title: Just-in Time Permission
-        link: /just-in-time-permission.html
-      - title: Minimization of Data Collection
-        link: #
+        link: https://designmanual.sagebionetworks.org/just-in-time-permission.html
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
 
   - title: Making sense of one's contribution and return of data/results
@@ -66,8 +61,6 @@ patterns:
       - title: Visual Toggle
         link: #
       - title: Data Usage Log
-        link: #
-      - title: Insights
         link: #
       - title: Private Share Link
         link: #
