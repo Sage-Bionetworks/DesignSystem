@@ -22,7 +22,7 @@ patterns:
     image: privacy-heart-capture-feature.svg
     description: Here are some best practices on how to deal with cookie prompts and drafting your Privacy Policy. These patterns set the tone with the user from the start that privacy is important. 
     links:
-      - title: Cookies
+      - title: Cookie Customization
         link: /cookies.html
       - title: Privacy Policy
         link: #
