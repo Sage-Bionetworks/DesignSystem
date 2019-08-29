@@ -72,7 +72,7 @@ patterns:
     description: The participant has completed their contribution to the study.
     links:
       - title: Inactivity
-        link: #
+        link: /inactivity.html
       - title: Data Access
         link: #
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
