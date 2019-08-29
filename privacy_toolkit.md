@@ -71,8 +71,8 @@ patterns:
     image: leaving-the-study.svg
     description: The participant has completed their contribution to the study.
     links:
-      - title: Inactivity
-        link: /inactivity.html
+      - title: Inactivity Notifications
+        link: /inactivity-notifications.html
       - title: Data Access
         link: #
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
