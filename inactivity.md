@@ -1,29 +1,29 @@
 ---
 layout: privacy_toolkit_auxiliary
-title: Just-in-time permission
+title: Inactivity Notifications
 
-description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! Request permissions right before the user needs to complete a task that requires this type of data. This approach is called a just-in-time permission.
+description: Participants might stop using a research app for many reasons. Consider informing them about ongoing data collection through inactivity notifications. <br /> <br />Remind your participants about how their data has been collected and used. Give them a simple way to ease them back into study activities. Tell them they can always withdraw from the study if they are no longer interested in participating. This transparency can encourage the participant to resume their contributions to the study.
 
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
-    title: Asking for all permissions upfront can cause distrust.
+    title: Data collection during a participant’s inactivity can violate their sense of privacy.
 
     description_items:
-      - When a participant receives all permission requests at once, they might feel overwhelmed and suspicious of these requests. Without an understanding of why permissions are required to collect the data, and why this data is valuable to researchers, the participant could deny permissions during the onboarding process. If they decide to grant permissions later, they will  have to navigate their phone’s system settings and update the app’s permissions. 
-      - This extra burden could create frustration, especially among less tech-savvy users. Even worse, it could cause them to leave or delete the app before their participation has even begun.
+      - WThere are many reasons why a participant stops actively using a research app. Sometimes they might not remember they still have the app on their phone, they have forgotten that the app is passively collecting their data, or they are no longer interested in participating. Although participants might have initially given permission for the app to collect passive data, they might be surprised at how much the app knows about them after a long period of non-participation. This surprise can cause additional privacy concerns.  
+      
     image_block:
-      title: "Worst Case Scenario: Participant Denies Permissions and Must Navigate System Settings"
+      title: "Worst Case Scenario: Inactive Participant is Unaware of Passive Data Collection"
       image: worst-just-in-time-permission.png
 
   - type: diagram
     image_color: F7FDFA
-    title: Just-in-time permission lays the groundwork for engagement.
+    title: Inactivity notifications can inform and re-engage participants.
 
     description_items:
-      - With just-in-time permission, the participant is provided the context to make an informed decision to allow or deny permissions that collect data for study-related tasks. Just-in-time permission also lays the groundwork for long-term engagement, by fostering mutual understanding and trust between researchers and participants.  
+      - After a period of inactivity, sending participants a notification about the study can renew their interest in contributing data. This gentle nudge is also a way to be transparent with participants about what data is being actively or passively collected and what control they have over sharing this data with researchers. If the participant chooses to withdraw from the study, they can do so without compromising their privacy.  
     image_block:
-      title: "Best Practice: Just-In-Time Permission"
+      title: "Best Practice: Inactivity Notifications"
       image: best-just-in-time-permission.png
 
   - type: steps
@@ -31,40 +31,34 @@ responsive_blocks:
 
     steps:
       - label: Step 1
-        title: Send just-in-time permission request only when a relevant tasks comes up.
-        description: Place the permission request only at the moment when a participant wants to complete a relevant task. For iOS, this could take place during the (’PrepareForSegue’).
+        title: Decide the length of time (e.g., number of days, weeks, months, or years) to wait before reminding an inactive participant about their contributions to the research study. Consider when to send a notification to participants via the app, a text message, or email. Remember to convey gratitude for their participation.
 
       - label: Step 2
-        title: Explain just-in-context how the permission is required for the task.
-        description: Provide a walkthrough of what task the participant is required to accomplish, how the task connects to the scientific research, and why the permission must be turned on in order to gather the data.
+        title: Remind the participant about active and passive data collection.
+        description: Explain the different types of data that are being collected from the participant, how the researchers are gathering this data, how the study is using this data, and how participants can resume their contribution to the study.  
 
       - label: Step 3
-        title: Use texts and visuals to demonstrate a real example.
-        description: For example, show a visual of the finger-tapping exercise and explain the application must have the permission to use the motion sensor in order to track finger movements.
+        title: Provide instructions about how to update data collection settings.
+        description: Direct participants to their app or phone settings so they can update their preferences for what data is contributed and collected. Remember to also share clear instructions about how participants can withdraw from the study if they choose to do so.
 
   - type: resources
     title: Resources
     resource_blocks:
       - title: Case Studies
         resources:
-        - title: How to Ask for App Permissions
-          subtitle: Luke Wroblewski
-          button_text: Watch Video
-          link: https://www.lukew.com/ff/entry.asp?1928
-
-        - title: What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?
-          subtitle: Luke Wroblewski
+        - title: Inactivity Checking
+          subtitle: Project If
           button_text: Read Article
-          link: https://www.lukew.com/ff/entry.asp?1995
+          link: https://catalogue.projectsbyif.com/patterns/inactivity-checking
 
-        - title: Permission and Best Practices
-          subtitle: Sarah Gold
+        - title: The Keys to Smart Behavioral Push Notifications
+          subtitle: Janet Choi
           button_text: Read Article
-          link: https://www.projectsbyif.com/blog/making-digital-services-worth-trusting-permissions-and-best-practices/
+          link: https://customer.io/blog/behavioral-push-notification-strategy/#Nudging_Inactive_Users
 
       - title: Resources
         resources:
-        - title: Just-In-Time Permissions Patterns
+        - title: Inactivity Notifications Patterns
           button_text: View in Figma
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
