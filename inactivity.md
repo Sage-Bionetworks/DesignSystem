@@ -31,7 +31,8 @@ responsive_blocks:
 
     steps:
       - label: Step 1
-        title: Decide the length of time (e.g., number of days, weeks, months, or years) to wait before reminding an inactive participant about their contributions to the research study. Consider when to send a notification to participants via the app, a text message, or email. Remember to convey gratitude for their participation.
+        title: Send a notification to the participant if they’ve been inactive for a while.
+      - description: Decide the length of time (e.g., number of days, weeks, months, or years) to wait before reminding an inactive participant about their contributions to the research study. Consider when to send a notification to participants via the app, a text message, or email. Remember to convey gratitude for their participation.
 
       - label: Step 2
         title: Remind the participant about active and passive data collection.
