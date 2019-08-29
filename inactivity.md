@@ -7,7 +7,7 @@ description: Participants might stop using a research app for many reasons. Cons
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
-    title: Data collection during a participant’s inactivity can violate their sense of privacy.
+    title: Collecting data on an inactive participant can violate their sense of privacy.
 
     description_items:
       - WThere are many reasons why a participant stops actively using a research app. Sometimes they might not remember they still have the app on their phone, they have forgotten that the app is passively collecting their data, or they are no longer interested in participating. Although participants might have initially given permission for the app to collect passive data, they might be surprised at how much the app knows about them after a long period of non-participation. This surprise can cause additional privacy concerns.  
