@@ -10,7 +10,7 @@ responsive_blocks:
     title: Collecting data on an inactive participant can violate their sense of privacy.
 
     description_items:
-      - WThere are many reasons why a participant stops actively using a research app. Sometimes they might not remember they still have the app on their phone, they have forgotten that the app is passively collecting their data, or they are no longer interested in participating. Although participants might have initially given permission for the app to collect passive data, they might be surprised at how much the app knows about them after a long period of non-participation. This surprise can cause additional privacy concerns.  
+      - There are many reasons why a participant stops actively using a research app. Sometimes they might not remember they still have the app on their phone, they have forgotten that the app is passively collecting their data, or they are no longer interested in participating. Although participants might have initially given permission for the app to collect passive data, they might be surprised at how much the app knows about them after a long period of non-participation. This surprise can cause additional privacy concerns.  
       
     image_block:
       title: "Worst Case Scenario: Inactive Participant is Unaware of Passive Data Collection"
