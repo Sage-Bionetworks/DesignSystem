@@ -25,7 +25,7 @@ patterns:
       - title: Cookie Customization
         link: /cookies.html
       - title: Privacy Policy
-        link: #
+        link: /privacy-policy.html
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
 
 
