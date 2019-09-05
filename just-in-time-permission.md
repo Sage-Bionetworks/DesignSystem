@@ -4,6 +4,7 @@ title: Just-in-time permission
 
 description: Apps usually bombard users with permissions screens requesting access to their camera, microphone and location data all at once. <br /> <br />There is a right time for everything! Request permissions right before the user needs to complete a task that requires this type of data. This approach is called a just-in-time permission.
 
+floating_image: just-in-time-permission-header.svg
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
@@ -50,29 +51,35 @@ responsive_blocks:
         - title: How to Ask for App Permissions
           subtitle: Luke Wroblewski
           button_text: Watch Video
+          resource_image: ic-play.svg
           link: https://www.lukew.com/ff/entry.asp?1928
 
         - title: What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?
           subtitle: Luke Wroblewski
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://www.lukew.com/ff/entry.asp?1995
 
         - title: Permission and Best Practices
           subtitle: Sarah Gold
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://www.projectsbyif.com/blog/making-digital-services-worth-trusting-permissions-and-best-practices/
 
       - title: Resources
         resources:
         - title: Just-In-Time Permissions Patterns
           button_text: View in Figma
+          resource_image: ic-figma.svg
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: #
 
         - title: Android GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---

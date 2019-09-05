@@ -2,6 +2,8 @@
 redirect_from: "/privacy_toolset.html"
 layout: toolkit
 title: What is a Privacy Toolkit?
+
+header_image: tools-header.png
 features:
   - title: Respectful & Trustworthy
     image: respectful-trustworthy.svg

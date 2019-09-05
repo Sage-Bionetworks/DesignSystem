@@ -10,9 +10,15 @@
         {% endif %}
 
         <div class="l-page-layout l-page-layout--two-column-fixed">
-            <div class="privacy-page-auxiliary-layout__header">
+            {% if page.header_image %}
+            <div class="privacy-page-auxiliary-layout__header" style="background: no-repeat; object-fit: cover; background: url({{ page.header_image | prepend: '/images/' | relative_url }}); background-repeat: no-repeat;">
               {% include auxiliary-header.html %}
             </div>
+            {% else %}
+              <div class="privacy-page-auxiliary-layout__header">
+                {% include auxiliary-header.html %}
+              </div>
+            {% endif %}
 
               <main>
                 <div class="b-auxiliary__content">
@@ -94,7 +100,11 @@
                                   <div class="c-auxiliary__resource-container">
                                     <div class="c-auxiliary__resource-left">
                                       <div class="c-auxiliary__resources-image">
-                                        <img src="{{ "/images/ic-play.svg" | relative_url }}">
+                                        {% if resource.resource_image %}
+                                          <img src="{{ resource.resource_image | prepend: '/images/' | relative_url }}">
+                                        {% else %}
+                                          <img src="{{ "/images/ic-play.svg" | relative_url }}">
+                                        {% endif %}
                                       </div>
                                       <div class="c-auxiliary__resource-image-description">
                                         <div class="c-auxiliary__resources-title">{{ resource.title }}</div>
