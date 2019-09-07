@@ -48,19 +48,19 @@ responsive_blocks:
         - title: Consently
           subtitle: An opt-in tool for third party tracking
           button_text: View Website
-          resource_image: ic-read.svg
+          resource_image: ic-document.svg
           link: https://consently.co
 
         - title: "Privacy UX: Better Cookie Consent Experiences"
           subtitle: Vitaly Friedman
           button_text: Read Article
-          resource_image: ic-read.svg
+          resource_image: ic-document.svg
           link: https://www.smashingmagazine.com/2019/04/privacy-ux-better-cookie-consent-experiences/
 
         - title: Designing Away the Cookie Disclaimer
           subtitle: Sebastian Greger
           button_text: Read Article
-          resource_image: ic-read.svg
+          resource_image: ic-document.svg
           link: https://sebastiangreger.net/2017/11/designing-away-the-cookie-disclaimer-talk/
 
       - title: Resources
