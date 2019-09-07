@@ -4,6 +4,7 @@ title: Inactivity Notifications
 
 description: Participants might stop using a research app for many reasons. Consider informing them about ongoing data collection through inactivity notifications. <br /> <br />Remind your participants about how their data has been collected and used. Give them a simple way to ease them back into study activities. Tell them they can always withdraw from the study if they are no longer interested in participating. This transparency can encourage the participant to resume their contributions to the study.
 
+floating_image: header-inactivity.svg
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
@@ -50,24 +51,29 @@ responsive_blocks:
         - title: Inactivity Checking
           subtitle: Project If
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://catalogue.projectsbyif.com/patterns/inactivity-checking
 
         - title: The Keys to Smart Behavioral Push Notifications
           subtitle: Janet Choi
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://customer.io/blog/behavioral-push-notification-strategy/#Nudging_Inactive_Users
 
       - title: Resources
         resources:
         - title: Inactivity Notifications Patterns
           button_text: View in Figma
+          resource_image: ic-figma.svg
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: #
 
         - title: Android GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
