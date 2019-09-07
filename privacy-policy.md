@@ -4,6 +4,7 @@ title: Privacy Policy
 
 description: The purpose of a privacy policy is to describe how an app, website, or device collects and uses a person’s data. They are often required by ethical review boards and app stores. However, many policies are difficult to find, read, and understand for end-users. <br></br> To avoid these problems, create a privacy policy that is useful and engaging. Organize content logically, keep the content at a middle school reading level, and include visual elements. Make sure the policy is easy to find on the app or website.
 
+floating_image: header-privacy-policy.svg
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
@@ -51,39 +52,47 @@ responsive_blocks:
         - title: Digital Medicine Society's Privacy Policy
           subtitle: An example that achieves a middle school reading level
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://www.dimesociety.org/index.php/privacy-policy
 
         - title: mPower's Privacy Policy
           subtitle: Sage Bionetworks
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://parkinsonmpower.org/privacy-policy
           
         - title: Privacy Policy Analysis
           subtitle: Center for Plain Language
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://www.scribd.com/doc/273651215/Center-for-Plain-Language-Privacy-Policy-Analysis
           
         - title: Making Privacy Policies Not Suck
           subtitle: Aza Raskin
           button_text: Read Article
+          resource_image: ic-document.svg
           link: http://www.azarask.in/blog/post/making-privacy-policies-not-suck/
           
         - title: A Quick Primer on Readability
           subtitle: Meg Doerr
           button_text: Read Article
+          resource_image: ic-document.svg
           link: https://sagebionetworks.org/wp-content/uploads/2019/01/Primer-on-readability-25April17-1.pdf
 
       - title: Resources
         resources:
         - title: Privacy Policy Patterns
           button_text: View in Figma
+          resource_image: ic-figma.svg
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: #
 
         - title: Android GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
