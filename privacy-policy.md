@@ -26,7 +26,7 @@ responsive_blocks:
       - Privacy policies that are written in plain language can help end-users at all reading levels understand how their data is handled. Visually emphasizing how the policy content relates to the end-user, presenting this content in a logical flow, and showing what step-by-step actions they can take if they have concerns, will give end-users more agency over how their data is used. Having these simplified materials also ensures apps and websites comply with ethical review board requirements, federal regulations, and international privacy laws.   
     image_block:
       title: "Best Practice: Privacy Policy"
-      image: best-privacypolicy.png
+      image: best-privacy-policy.svg
 
   - type: steps
     title: What to prepare?
