@@ -16,7 +16,7 @@ responsive_blocks:
       
     image_block:
       title: "Worst Case Scenario: A Privacy Policy that is Uninformative and Unapproachable"
-      image: worst-privacypolicy.png
+      image: worst-privacy-policy.svg
 
   - type: diagram
     image_color: F7FDFA
