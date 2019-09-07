@@ -49,7 +49,7 @@ responsive_blocks:
       - title: Case Studies
         resources:
         - title: Inactivity Checking
-          subtitle: Project If
+          subtitle: Projects by IF
           button_text: Read Article
           resource_image: ic-document.svg
           link: https://catalogue.projectsbyif.com/patterns/inactivity-checking
