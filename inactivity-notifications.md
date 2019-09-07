@@ -15,7 +15,7 @@ responsive_blocks:
       
     image_block:
       title: "Worst Case Scenario: Inactive Participant is Unaware of Passive Data Collection"
-      image: worst-inactivity.png
+      image: worst-inactivity.svg
 
   - type: diagram
     image_color: F7FDFA
@@ -25,7 +25,7 @@ responsive_blocks:
       - After a period of inactivity, sending participants a notification about the study can renew their interest in contributing data. This gentle nudge is also a way to be transparent with participants about what data is being actively or passively collected and what control they have over sharing this data with researchers. If the participant chooses to withdraw from the study, they can do so without compromising their privacy.  
     image_block:
       title: "Best Practice: Inactivity Notifications"
-      image: best-inactivity.png
+      image: best-inactivity.svg
 
   - type: steps
     title: What to prepare?
