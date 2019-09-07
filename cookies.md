@@ -4,6 +4,7 @@ title: Cookie Customization
 
 description: Consider showing participants what cookies you are collecting, why they are relevant to the study, and how participants can customize which cookies are tracked or shared with your research team. <br /> <br />Giving participants this control early on demonstrates your respect for their right to privacy. Doing so can help build a long-term relationship with participants, and establish their trust in your commitment to protect their information. 
 
+floating_image: header-cookies.svg
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
@@ -47,29 +48,35 @@ responsive_blocks:
         - title: Consently
           subtitle: An opt-in tool for third party tracking
           button_text: View Website
+          resource_image: ic-read.svg
           link: https://consently.co
 
         - title: "Privacy UX: Better Cookie Consent Experiences"
           subtitle: Vitaly Friedman
           button_text: Read Article
+          resource_image: ic-read.svg
           link: https://www.smashingmagazine.com/2019/04/privacy-ux-better-cookie-consent-experiences/
 
         - title: Designing Away the Cookie Disclaimer
           subtitle: Sebastian Greger
           button_text: Read Article
+          resource_image: ic-read.svg
           link: https://sebastiangreger.net/2017/11/designing-away-the-cookie-disclaimer-talk/
 
       - title: Resources
         resources:
-        - title: Cookie Customization
+        - title: Cookie Customization Patterns
           button_text: View in Figma
+          resource_image: ic-figma.svg
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
         - title: iOS GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: #
 
         - title: Android GitHub Repo
           button_text: View on GitHub
+          resource_image: ic-github.svg
           link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
