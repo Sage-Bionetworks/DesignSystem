@@ -11,7 +11,7 @@
 
         <div class="l-page-layout l-page-layout--two-column-fixed">
             {% if page.header_image %}
-            <div class="privacy-page-auxiliary-layout__header" style="background: no-repeat; object-fit: cover; background: url({{ page.header_image | prepend: '/images/' | relative_url }}); background-repeat: no-repeat;">
+            <div class="privacy-page-auxiliary-layout__header with-header" style="background: url({{ page.header_image | prepend: '/images/' | relative_url }});">
               {% include auxiliary-header.html %}
             </div>
             {% else %}
