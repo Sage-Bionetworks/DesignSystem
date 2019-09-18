@@ -61,6 +61,12 @@ responsive_blocks:
           resource_image: ic-document.svg
           link: https://parkinsonmpower.org/privacy-policy
           
+        - title: Twitter's Privacy Policy
+          subtitle: An Example of a Good Policy Summary
+          button_text: View Page
+          resource_image: ic-document.svg
+          link: https://twitter.com/en/privacy
+          
         - title: Privacy Policy Analysis
           subtitle: Center for Plain Language
           button_text: Read Article
