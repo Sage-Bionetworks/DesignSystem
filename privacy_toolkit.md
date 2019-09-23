@@ -63,7 +63,7 @@ patterns:
       - title: Visual Toggle
         link: #
       - title: Data Usage Log
-        link: #
+        link: /data-usage-log.html
       - title: Private Share Link
         link: /private-share-link.html
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
