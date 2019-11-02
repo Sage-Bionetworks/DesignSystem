@@ -15,7 +15,7 @@ responsive_blocks:
       - Targeted advertisements could make participants feel embarassed, worried, and distrustful about who has access to their information. These negative feelings could cause a participant to stop contributing data and to withdraw from the study.
     image_block:
       title: "Worst Case Scenario: Participant Has No Choice But to Accept All Cookies"
-      image: worst-cookie-customization.svg
+      image: worst-cookies.svg
 
   - type: diagram
     image_color: F7FDFA
