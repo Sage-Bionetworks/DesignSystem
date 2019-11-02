@@ -67,13 +67,5 @@ responsive_blocks:
           resource_image: ic-figma.svg
           link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
 
-        - title: iOS GitHub Repo
-          button_text: Coming Soon
-          resource_image: ic-github.svg
-          link: #
 
-        - title: Android GitHub Repo
-          button_text: Coming Soon
-          resource_image: ic-github.svg
-          link: https://github.com/Sage-Bionetworks/DesignSystem-Android
 ---
