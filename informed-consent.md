@@ -90,7 +90,7 @@ responsive_blocks:
         - title: Informed Consent Patterns
           button_text: View in Figma
           resource_image: ic-figma.svg
-          link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
+          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=0%3A1
 
 
 ---
