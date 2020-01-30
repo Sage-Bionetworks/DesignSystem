@@ -37,12 +37,10 @@ patterns:
     description: The user has heard about the study from either recruitment materials or a healthcare provider. The user is looking for additional information on the purpose of the study, participant eligibility criteria and the requirements of study participation.
     links:
     
-      - title: Consent
-        link: https://sagebionetworks.org/wp-content/uploads/2019/07/SageBio_EIC-Toolkit_V2_17July19_final.pdf
+      - title: Informed Consent
+        link: https://designmanual.sagebionetworks.org/informed-consent.html
       - title: Study Details
-        link: #
-      - title: Data Sharing Options
-        link: #
+        link: https://designmanual.sagebionetworks.org/study-details.html
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
 
 
