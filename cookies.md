@@ -62,12 +62,19 @@ responsive_blocks:
           button_text: Read Article
           resource_image: ic-document.svg
           link: https://sebastiangreger.net/2017/11/designing-away-the-cookie-disclaimer-talk/
+          
+        - title: I Found Your Data. It's For Sale.
+          subtitle: Geoffrey A. Fowler
+          button_text: Read Article
+          resource_image: ic-document.svg
+          link: https://www.washingtonpost.com/technology/2019/07/18/i-found-your-data-its-sale/
+
 
       - title: Resources
         resources:
         - title: Cookie Customization Patterns
           button_text: View in Figma
           resource_image: ic-figma.svg
-          link: https://www.figma.com/file/BnryUMjHKeCADBiS0Rch7qBH/Privacy-Templates-Public?node-id=135%3A93
+          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=17%3A0
 
 ---
