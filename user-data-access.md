@@ -76,7 +76,7 @@ responsive_blocks:
           - title: Google Takeout
           subtitle: Google
           button_text: View Example
-          resource_image: ic-document.svg
+          resource_image: ic-example.svg
           link: https://takeout.google.com/settings/takeout
 
 
