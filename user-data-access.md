@@ -23,8 +23,7 @@ responsive_blocks:
 
     description_items:
       - Explain to participants what types of data were collected from them. Then let them choose which data types they want to download. Give them options for viewing their data in different formats. For example, give participants both easy-to-read reports and spreadsheets of raw data. Tell participants they should not use the data they download to draw conclusions about their health. Clearly state that the data should not be used for medical purposes like medical advice, diagnosis, or treatment.
- 
-After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, so that they can read about what you learned.  
+      - After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, so that they can read about what you learned.  
     image_block:
       title: "Best Practice: Data Download Options"
       image: best-user-data-access.svg
