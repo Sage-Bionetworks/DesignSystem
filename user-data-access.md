@@ -3,7 +3,7 @@ layout: privacy_toolkit_auxiliary
 title: User Data Access
 
 description: Participants deserve control over their data at every stage of the study. Make sure they can still access their data when the study is over. If participants leave the study early, they still need access to the data they collected.
-
+---
 floating_image: header-user-data-access.svg
 responsive_blocks:
   - type: diagram
