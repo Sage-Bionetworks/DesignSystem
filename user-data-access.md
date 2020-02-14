@@ -14,7 +14,11 @@ responsive_blocks:
     title: Participants grow frustrated if they cannot access their own data.
 
     description_items:
-      - Participants need access to their data after they leave the study. If they cannot access their data after they finish, and lose the valuable health record they created during the study, they will become frustrated. Participants can feel that joining the study was not useful for them. As a result, they might refuse to participate in future studies.   
+      -> 
+      Participants need access to their data after they leave the study. If they cannot access their data after they 
+      finish, and lose the valuable health record they created during the study, they will become frustrated. 
+      Participants can feel that joining the study was not useful for them. As a result, they might refuse to 
+      participate in future studies.   
       
     image_block:
       title: "Worst Case Scenario: Participants Get Frustrated with Research In General"
@@ -25,7 +29,16 @@ responsive_blocks:
     title: Giving participants access to their own data makes participating worthwhile.
 
     description_items:
-      - "Explain to participants what types of data were collected from them. Then let them choose which data types they want to download. Give them options for viewing their data in different formats. For example, give participants both easy-to-read reports and spreadsheets of raw data.  <br /> <br /> Remember: if your research app ever stops working, participants still need to be able to use their data. Offer formats (e.g., .csv or even plain text) that do not rely on short-lived technologies. Make sure that participants have a way to keep a copy of the health record they created, no matter what happens to your research app in the future. <br /> <br /> Tell participants they should not use the data they download to draw conclusions about their health. Clearly state that the data should not be used for medical purposes like medical advice, diagnosis, or treatment. <br /> <br /> After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, so that they can read about what you learned." 
+      - "Explain to participants what types of data were collected from them. Then let them choose which data types they 
+      want to download. Give them options for viewing their data in different formats. For example, give participants 
+      both easy-to-read reports and spreadsheets of raw data.  <br /> <br /> Remember: if your research app ever stops
+      working, participants still need to be able to use their data. Offer formats (e.g., .csv or even plain text) 
+      that do not rely on short-lived technologies. Make sure that participants have a way to keep a copy of the health 
+      record they created, no matter what happens to your research app in the future. <br /> <br /> Tell participants 
+      they should not use the data they download to draw conclusions about their health. Clearly state that the data 
+      should not be used for medical purposes like medical advice, diagnosis, or treatment. <br /> <br /> 
+      After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, 
+      so that they can read about what you learned."
     image_block:
       title: "Best Practice: Data Download Options"
       image: best-user-data-access.svg
@@ -36,15 +49,24 @@ responsive_blocks:
     steps:
       - label: Step 1
         title: Determine what data participants will be able to download.
-        description: Create a list, with short descriptions, of the data types you will collect from participants during the study. Think about what formats you can provide the data in, and what formats would be useful for participants. Not every format is useful. For example, raw accelerometer data may be less useful than stepcount data.
+        description: > 
+            Create a list, with short descriptions, of the data types you will collect from participants during the 
+            study. Think about what formats you can provide the data in, and what formats would be useful for 
+            participants. Not every format is useful. For example, raw accelerometer data may be less useful than 
+            stepcount data.
 
       - label: Step 2
         title: Figure out what participants need to know about the limits of the data.
-        description: Make sure you know if the data your participants collect is valid for medical use. If it is not, make sure to state that clearly to participants.  
+        description: >
+            Make sure you know if the data your participants collect is valid for medical use. If it is not, make sure 
+            to state that clearly to participants.  
 
       - label: Step 3
         title: Have a way to inform participants about publications.
-        description: In the consent process, ask participants if they want to be informed about papers that result from the study. Have a way to notify them of publications as they are released. If you can, set aside funds for open-access publication.
+        description: >
+            In the consent process, ask participants if they want to be informed about papers that result from the 
+            study. Have a way to notify them of publications as they are released. If you can, set aside funds for 
+            open-access publication.
 
   - type: resources
     title: Resources
