@@ -3,7 +3,7 @@ layout: privacy_toolkit_auxiliary
 title: User Data Access
 
 description: Participants collect a lot of data over the course of a study. This data forms a valuable record of their health, which should not disappear when the study ends. Give participants access to their data when the study is over. If participants leave the study early, they still deserve access to the data they collected.
----
+
 floating_image: header-user-data-access.svg
 responsive_blocks:
   - type: diagram
