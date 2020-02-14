@@ -2,7 +2,10 @@
 layout: privacy_toolkit_auxiliary
 title: User Data Access
 
-description: Participants collect a lot of data over the course of a study. This data forms a valuable record of their health, which should not disappear when the study ends. Give participants access to their data when the study is over. If participants leave the study early, they still deserve access to the data they collected.
+description: >
+    Participants collect a lot of data over the course of a study. This data forms a valuable record of their health, 
+    which should not disappear when the study ends. Give participants access to their data when the study is over. If
+    participants leave the study early, they still deserve access to the data they collected.
 
 floating_image: header-user-data-access.svg
 responsive_blocks:
@@ -22,7 +25,7 @@ responsive_blocks:
     title: Giving participants access to their own data makes participating worthwhile.
 
     description_items:
-      - Explain to participants what types of data were collected from them. Then let them choose which data types they want to download. Give them options for viewing their data in different formats. For example, give participants both easy-to-read reports and spreadsheets of raw data.  <br /> <br /> Remember: if your research app ever stops working, participants still need to be able to use their data. Offer formats (e.g., .csv or even plain text) that do not rely on short-lived technologies. Make sure that participants have a way to keep a copy of the health record they created, no matter what happens to your research app in the future. <br /> <br /> Tell participants they should not use the data they download to draw conclusions about their health. Clearly state that the data should not be used for medical purposes like medical advice, diagnosis, or treatment. <br /> <br /> After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, so that they can read about what you learned.  
+      - "Explain to participants what types of data were collected from them. Then let them choose which data types they want to download. Give them options for viewing their data in different formats. For example, give participants both easy-to-read reports and spreadsheets of raw data.  <br /> <br /> Remember: if your research app ever stops working, participants still need to be able to use their data. Offer formats (e.g., .csv or even plain text) that do not rely on short-lived technologies. Make sure that participants have a way to keep a copy of the health record they created, no matter what happens to your research app in the future. <br /> <br /> Tell participants they should not use the data they download to draw conclusions about their health. Clearly state that the data should not be used for medical purposes like medical advice, diagnosis, or treatment. <br /> <br /> After the study ends, you will likely write papers about the data. Tell participants when your paper comes out, so that they can read about what you learned." 
     image_block:
       title: "Best Practice: Data Download Options"
       image: best-user-data-access.svg
@@ -54,7 +57,7 @@ responsive_blocks:
           resource_image: ic-document.svg
           link: https://www.boston.com/news/science/2014/01/23/should-research-subjects-have-access-to-their-raw-data
 
-        - title: Information Access. Raw Personal Data: Providing Access.
+        - title: "Information Access. Raw Personal Data: Providing Access."
           subtitle: Jeantine E. Lunshof, George M. Church and Barbara Prainsack
           button_text: Read Article
           resource_image: ic-document.svg
@@ -66,17 +69,17 @@ responsive_blocks:
           resource_image: ic-document.svg
           link: https://www.washingtonpost.com/news/the-intersect/wp/2018/03/27/heres-how-to-download-all-your-data-from-facebook-it-might-be-a-wake-up-call/
           
-        - title: UK vs. US: How Much of Your Personal Data Can You Get?
+        - title: "UK vs. US: How Much of Your Personal Data Can You Get?"
           subtitle: Natasha Singer and Prashant S. Rao
           button_text: Read Article
           resource_image: ic-document.svg
           link: https://www.nytimes.com/interactive/2018/05/20/technology/what-data-companies-have-on-you.html
           
-         - title: Google Takeout
-           subtitle: Google
-           button_text: View Example
-           resource_image: ic-example.svg
-           link: https://takeout.google.com/settings/takeout
+        - title: Google Takeout
+          subtitle: Google
+          button_text: View Example
+          resource_image: ic-example.svg
+          link: https://takeout.google.com/settings/takeout
 
 
       - title: Resources
