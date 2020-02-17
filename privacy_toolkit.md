@@ -73,8 +73,8 @@ patterns:
     links:
       - title: Inactivity Notifications
         link: /inactivity-notifications.html
-      - title: Data Access
-        link: #
+      - title: User Data Access
+        link: /user-data-access.html
     add_a_pattern_link: https://forms.gle/81UvA3gT63kJmr3V8
             
 ---
