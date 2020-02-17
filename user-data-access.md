@@ -109,7 +109,7 @@ responsive_blocks:
         - title: Inactivity Notifications Patterns
           button_text: View in Figma
           resource_image: ic-figma.svg
-          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=17%3A783
+          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=40%3A16
 
 
 ---
