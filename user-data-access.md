@@ -106,7 +106,7 @@ responsive_blocks:
 
       - title: Resources
         resources:
-        - title: Inactivity Notifications Patterns
+        - title: User Data Access Patterns
           button_text: View in Figma
           resource_image: ic-figma.svg
           link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=40%3A16
