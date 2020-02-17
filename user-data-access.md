@@ -14,7 +14,6 @@ responsive_blocks:
     title: Participants grow frustrated if they cannot access their own data.
 
     description_items:
-      -> 
       Participants need access to their data after they leave the study. If they cannot access their data after they 
       finish, and lose the valuable health record they created during the study, they will become frustrated. 
       Participants can feel that joining the study was not useful for them. As a result, they might refuse to 
