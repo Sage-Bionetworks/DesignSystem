@@ -58,7 +58,7 @@ responsive_blocks:
           resource_image: ic-document.svg
           link: https://www.washington.edu/news/2014/07/08/better-visualizing-of-fitness-app-data-helps-discover-trends-reach-goals/
           
-        - title: See It, Believe It: The Web Visualization Library
+        - title: See It, Believe It. The Web Visualization Library
           subtitle: David Haddad
           button_text: Read Article
           resource_image: ic-document.svg
