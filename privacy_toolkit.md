@@ -59,7 +59,7 @@ patterns:
     description: When a participant is making sense of how his/her data contributes to the research study. A participant now has the ability to see aggregated data in an understandable visual format so that they can better manage their condition.
     links:
       - title: Visual Toggle
-        link: #
+        link: https://designmanual.sagebionetworks.org/visual-toggle.html
       - title: Data Usage Log
         link: /data-usage-log.html
       - title: Private Share Link
