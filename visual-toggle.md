@@ -111,6 +111,6 @@ responsive_blocks:
         - title: Visual Toggle Patterns
           button_text: View in Figma
           resource_image: ic-figma.svg
-          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit-Public-to-Webpage?node-id=44%3A16
+          link: https://www.figma.com/file/QjlqDSjde4GK7fR9sP78Qv/Privacy-Toolkit--Public-to-Webpage?node-id=44%3A16
 
 ---
