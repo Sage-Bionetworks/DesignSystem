@@ -4,7 +4,7 @@ title: Visual Toggle
 
 description: In research we ask our participants to give us their data. Moreover, many studies have no data deletion date, so participants must trust researchers to guard their data in perpetuity. This is a big ask from participants--but what are we giving them in return? Researchers should give participants access to their own data. This practice follows the basic research principles of beneficence and respect for autonomy. In addition, if participants derive value from participating, they are more likely to stay in the study. 
 
-floating_image: header-data-usage-log.svg
+floating_image: header-visual-toggle.svg
 responsive_blocks:
   - type: diagram
     image_color: FEF7F8
