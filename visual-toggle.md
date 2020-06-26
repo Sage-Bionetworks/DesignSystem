@@ -2,7 +2,7 @@
 layout: privacy_toolkit_auxiliary
 title: Visual Toggle
 
-description: In research we ask our participants to give us their data. Moreover, many studies have no data deletion date, so participants must trust researchers to guard their data in perpetuity. This is a big ask from participants--but what are we giving them in return? Researchers should give participants access to their own data. This practice follows the basic research principles of beneficence and respect for autonomy. In addition, if participants derive value from participating, they are more likely to stay in the study. 
+description: In research we ask our participants to give us their data. Moreover, many studies have no data deletion date, so participants must trust researchers to guard their data in perpetuity. This is a big ask from participants--but what are we giving them in return? Researchers should give participants access to their own data. This practice follows the basic research principles of beneficence and respect for autonomy. In addition, if participants derive value from participating, they are more likely to stay in the study.  <br /> <br /> But don’t stop at giving participants access to their data. Help them make use of their data by giving them more than one way of viewing it. Let participants explore data in different ways to gain insights about their health. Allow participants to easily switch back and forth between different views of the data. And be upfront about the limits of the data. Make sure to tell participants that their research data cannot be used for medical self-management without the input of a medical provider.
 
 floating_image: header-visual-toggle.svg
 responsive_blocks:
